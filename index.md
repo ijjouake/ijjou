@@ -10,9 +10,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
  
  *Data cleaning
-<img src="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
-
-<a href="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+<img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
 
 
 <img src="https://drive.google.com/open?id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
