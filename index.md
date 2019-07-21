@@ -2,10 +2,11 @@
 <head>
 <style>
 body {background-color: white;}
-h1   {color: #fdd75a;}
-h1 {
+p    {color: black;}
+ 
+ .project-name {
+    font-size: 4.25rem;
     font-family: "adobe-garamond-pro";
-    font-size: 36px;
     line-height: 1.5em;
     text-transform: none;
     letter-spacing: 1px;
@@ -14,10 +15,9 @@ h1 {
     color: #fff;
     margin: 20px auto;
 }
- 
- h2 {
+.project-tagline {
+    font-size: 4.25rem;
     display: block;
-    font-size: 4.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -25,14 +25,6 @@ h1 {
     font-weight: bold;
     color: yellow;
     font-weight: normal;
-}
-p    {color: black;}
- 
- .project-name {
-    font-size: 4.25rem;
-}
-.project-tagline {
-    font-size: 4.25rem;
 }
 .page-header {
  color: #fff;
