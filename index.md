@@ -9,35 +9,41 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 <p> On my website you can find some examples of my projects, most of them are interactive visualization.
 </p>
  
- *Data cleaning
-<img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
-
-*Data Modeling
-<img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
-
-* Data visualization
-A picture says more than a thousand words.
-<img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
-
-
-<div class="data.cleaning" layout="column" layout-align="start center">
+<div class="cleaning" layout="column" layout-align="start center">
                 <h2>Data Cleaning</h2>
                 <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
             </div>
             
- <div class="data.modeling" layout="column" layout-align="start center">
-                <h2>Protezione Dati</h2>
+ <div class=".modeling" layout="column" layout-align="start center">
+                <h2>Data Modeling</h2>
                 <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
             </div>
             
- <div class="data.modeling" layout="column" layout-align="start center">
-                <h2>Data.Visualisation</h2>
+ <div class=".visualisation" layout="column" layout-align="start center">
+                <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
             </div>
             
+            /* fit images to container */
+.cleaning img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* fit images to container */
+.modeling img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* fit images to container */
+.visualisation img {
+    max-width: 100%;
+    height: auto;
+}
+            
 </body>
 </html>
-
 
 
 ### Markdown
