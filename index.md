@@ -2,8 +2,13 @@
 
 <html>
 <head>
- <style>
-  <body>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+
+<body>
+ 
 <p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
 I am a big open source believer, therefore I prefer to use R and python for my daily work.
@@ -44,8 +49,9 @@ I am a big open source believer, therefore I prefer to use R and python for my d
     height: 40px;
 }
 
-</style>
 
+</style>
+</head>
 
 ### Markdown
 
@@ -80,7 +86,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-<head>
 </body>
 </html>
   
