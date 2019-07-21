@@ -17,6 +17,7 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
     color: #e6807b;
+    font-style: bold;
 }
 p    {color: black;}
  
