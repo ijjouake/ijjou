@@ -4,8 +4,15 @@
 body {background-color: white;}
 h1   {color: #fdd75a;}
 h1 {
-    font-size: 4em;
-    margin: 0.67em 0;
+    font-family: "adobe-garamond-pro";
+    font-size: 36px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    margin: 20px auto;
 }
  
  h2 {
@@ -16,7 +23,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: red;
+    color: yellow;
     font-weight: normal;
 }
 p    {color: black;}
@@ -25,7 +32,7 @@ p    {color: black;}
     font-size: 4.25rem;
 }
 .project-tagline {
-    font-size: 2.25rem;
+    font-size: 4.25rem;
 }
 .page-header {
  color: #fff;
