@@ -5,9 +5,9 @@ body {background-color: white;}
 p    {color: black;}
  
  .project-name {
-    font-size: 4.25rem;
+    font-size: 4rem;
     font-family: "adobe-garamond-pro";
-    line-height: 1.5em;
+    line-height: 1em;
     text-transform: none;
     letter-spacing: 1px;
     font-weight: 400;
@@ -16,7 +16,7 @@ p    {color: black;}
     margin: 20px auto;
 }
 .project-tagline {
-    font-size: 4.25rem;
+    font-size: 4rem;
     display: block;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
