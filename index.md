@@ -2,9 +2,6 @@
 
 <html>
 <body>
-
-<h1>Welcome</h1>
-
 <p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
 I am a big open source believer, therefore I prefer to use R and python for my daily work.
