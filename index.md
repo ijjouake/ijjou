@@ -16,7 +16,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: #fdd75a;
+    color: #e6807b;
 }
 p    {color: black;}
  
