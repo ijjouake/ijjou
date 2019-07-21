@@ -9,7 +9,7 @@ p    {color: black;}
 .page-header {
  color: #fff;
  text-align: center;
- background-color: #159957;
+ background-color: ##555555;
  background-image: linear-gradient(120deg, yellow, red);
 }
 </style>
