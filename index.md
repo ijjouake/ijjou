@@ -27,12 +27,17 @@ p    {color: red;}
     max-width: 40px;
     height: 40px;
 }
-
+.header-img {
+  width: 100%;
+  height: 400px;
+  background: url('http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf');
+  background-size: cover;
+}
 .page-header {
     color: red;
     text-align: center;
     background-color: white;
-    background-image: url=("http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf");
+    background-image: =("");
 }
 </style>
 </head>
