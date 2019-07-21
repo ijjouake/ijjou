@@ -32,12 +32,11 @@ p    {color: red;}
     color: red;
     text-align: center;
     background-color: white;
-    background-image: linear-gradient(120deg, red, white);
+    background-image: src=("http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf")
 }
 </style>
 </head>
-<body>
-<p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
+<body><p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
 I am a big open source believer, therefore I prefer to use R and python for my daily work.
 </p>
