@@ -9,15 +9,15 @@ h1 {
 }
  
  h2 {
-    display: block;
-    font-size: 2.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: red;
-    font-weight: normal;
+    font-family: "adobe-garamond-pro";
+    font-size: 36px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    margin: 20px auto;
 }
 p    {color: black;}
  
