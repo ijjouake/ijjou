@@ -10,7 +10,7 @@ p    {color: black;}
  text-align: center;
   width: 100%;
   height: 400px;
-  background: url('http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf')
+  background: url('http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf');
   background-size: cover;
 }
 </style>
