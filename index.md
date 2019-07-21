@@ -8,7 +8,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
 <p> On my website you can find some examples of my projects, most of them are interactive visualization.
 </p>
-
+ <link rel="icon" href=img src="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A">
 ![datacleaning](https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A)
 *Data cleaning
 
