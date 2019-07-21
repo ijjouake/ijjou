@@ -4,34 +4,12 @@
 body {background-color: white;}
 h1   {color: white;}
 p    {color: black;}
-#load {
-    background: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    height: 100%;
-    -webkit-transition: opacity 1s linear;
-    transition: opacity 1s linear;
-    z-index: 25;
-} 
- .cleaning img {
-    max-width: 40px;
-    height: 40px;
-}
-.modeling img {
-    max-width: 40px;
-    height: 40px;
-}
-.visualisation img {
-    max-width: 40px;
-    height: 40px;
-}
-    .page-header {
-    color: #fff;
-    text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, yellow, red);
+
+.page-header {
+ color: #fff;
+ text-align: center;
+ background-color: #159957;
+ background-image: linear-gradient(120deg, yellow, red);
 }
 </style>
 </head>
