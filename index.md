@@ -41,13 +41,13 @@ p    {color: black;}
     border-color: rgba(255,255,255,0.3);
     box-shadow: 0 0 black;
     }
-    .btn{
+    .page-header .btn{
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
     }
 @media screen and (min-width: 64em)
-.btn {
+.page-header .btn {
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
