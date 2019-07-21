@@ -10,16 +10,15 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
  
  *Data cleaning
- <a href="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A">
-</a>
+<img src="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
 
 
+<img src="https://drive.google.com/open?id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
 
-![datavisualisation](https://drive.google.com/open?id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc)
 * Data visualization
 A picture says more than a thousand words.
+<img src="https://drive.google.com/open?id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
 
-![data visualisation](https://drive.google.com/open?id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6)
 *Data Modeling
 
 
