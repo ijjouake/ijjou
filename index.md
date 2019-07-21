@@ -34,8 +34,16 @@ p    {color: black;}
   background: url('http://drive.google.com/uc?export=view&id=1WXr2aWCUGwLcZC_X5Rl6f_PCsvmH9Sx0');
   background-size: cover;
 }
+.btn:hover {
+    color: rgba(255, 255, 250, 0.8);
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.3);
+    box-shadow: 0 0 black;
+}
 </style>
 </head>
+<a href="https://github.com/ijjouake/ijjou" class="btn">View on GitHub</a>
 <body><p>My name is Ijjou, I'm a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
 I am a big open source believer, therefore I prefer to use R and python for my daily work.
