@@ -1,8 +1,32 @@
 ## Welcome,
 
-You can use the [editor on GitHub](https://github.com/ijjouake/ijjou.git.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h1>Welcome</h1>
+
+<p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
+<p> Getting insights out of data to build a business strategy is something that I really like. 
+I am a big open source believer, therefore I prefer to use R and python for my daily work.
+</p>
+<p> On my website you can find some examples of my projects, most of them are interactive visualization.
+</p>
+
+![datacleaning](https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A)
+*Data cleaning
+
+![datavisualisation](https://drive.google.com/open?id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc)
+* Data visualization
+A picture says more than a thousand words.
+
+![data visualisation](https://drive.google.com/open?id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6)
+*Data Modeling
+
+
+</body>
+</html>
+
+
 
 ### Markdown
 
