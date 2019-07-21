@@ -40,7 +40,13 @@ p    {color: black;}
     background-color: rgba(255,255,255,0.2);
     border-color: rgba(255,255,255,0.3);
     box-shadow: 0 0 black;
-}
+    }
+    .btn{
+    position: absolute!important;
+    right: 10px!important;
+    top: 10px!important;
+    }
+
 </style>
 </head>
 <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
