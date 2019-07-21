@@ -31,7 +31,7 @@ p    {color: red;}
 .page-header {
     color: #fff;
     text-align: center;
-    background-color: #159957;
+    background-color: gold;
     background-image: linear-gradient(120deg, #155799, #159957);
 }
 </style>
