@@ -29,9 +29,9 @@ p    {color: red;}
 }
 
 .page-header {
-    color: #fff;
+    color: red;
     text-align: center;
-    background-color: gold;
+    background-color: white;
     background-image: linear-gradient(120deg, #155799, #159957);
 }
 </style>
