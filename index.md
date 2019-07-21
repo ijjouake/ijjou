@@ -4,7 +4,13 @@
 body {background-color: white;}
 h1   {color: white;strong}
 p    {color: black;}
-
+ 
+ .project-name {
+    font-size: 4.25rem;
+}
+.project-tagline {
+    font-size: 2.25rem;
+}
 .page-header {
  color: #fff;
  text-align: center;
