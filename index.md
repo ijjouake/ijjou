@@ -35,7 +35,7 @@ p    {color: red;}
  height: 100%;
  display: block;
  top: 0;
- background: url('http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf');
+ background-image: url('http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf');
  background-size: cover;  
 }
     
