@@ -28,20 +28,20 @@ I am a big open source believer, therefore I prefer to use R and python for my d
    <style>          
             /* fit images to container */
 .cleaning img {
-    max-width: 100%;
-    height: auto;
+    max-width: 40px;
+    height: 40px;
 }
 
 /* fit images to container */
 .modeling img {
-    max-width: 100%;
-    height: auto;
+    max-width: 40px;
+    height: 40px;
 }
 
 /* fit images to container */
 .visualisation img {
-    max-width: 100%;
-    height: auto;
+    max-width: 40px;
+    height: 40px;
 }
 </style>    
 </head>
