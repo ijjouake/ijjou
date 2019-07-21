@@ -3,13 +3,12 @@
 <style>
 body {background-color: white;}
 h1   {color: white;}
-h2   {color: black;}
 p    {color: black;}
 
 .page-header {
  color: #fff;
  text-align: center;
- background-color: ##555555;
+ background-color: #555555;
  background-image: linear-gradient(120deg, yellow, red);
 }
 </style>
