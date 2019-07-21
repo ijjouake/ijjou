@@ -43,17 +43,17 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
 <div class="cleaning" layout="column" layout-align="start center">
                 <h2>Data Cleaning</h2>
-                <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="width:500px;height:600px;">
+                <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="width:50px;height:60px;">
             </div>
             
  <div class=".modeling" layout="column" layout-align="start center">
                 <h2>Data Modeling</h2>
-                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:500px;height:600px;">
+                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:50px;height:60px;">
             </div>
             
  <div class=".visualisation" layout="column" layout-align="start center">
                 <h2>Data Visualisation</h2>
-               <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" sstyle="width:500px;height:600px;">
+               <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" sstyle="width:50px;height:60px;">
             </div>
             
             /* fit images to container */
