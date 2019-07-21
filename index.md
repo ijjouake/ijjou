@@ -2,7 +2,7 @@
 <head>
 <style>
 body {background-color: white;}
-h1   {color: white;}
+h1   {color: white;strong}
 p    {color: black;}
 
 .page-header {
