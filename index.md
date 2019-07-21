@@ -8,8 +8,10 @@ p    {color: black;}
 .page-header {
  color: #fff;
  text-align: center;
- background-color: #555555;
- background-image: linear-gradient(120deg, yellow, red);
+  width: 100%;
+  height: 400px;
+  background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
+  background-size: cover;
 }
 </style>
 </head>
