@@ -2,7 +2,7 @@
 <head>
 <style>
 body {background-color: white;}
-h1   {color: white;strong}
+h1   {color: #fdd75a;}
 h1 {
     font-size: 4em;
     margin: 0.67em 0;
@@ -16,6 +16,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: #fdd75a;
 }
 p    {color: black;}
  
