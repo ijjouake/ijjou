@@ -20,7 +20,15 @@ A picture says more than a thousand words.
 <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
 
 
+<div class="pagamenti" layout="column" layout-align="start center">
+                <h2>Pagamenti Sicuri</h2>
+                <img src="https://drive.google.com/uc?export=view&id=18GPRA4eDY77FclmYxsyyWBR_Wob-EWxr">
 
+            </div>
+            <div class="protezione dati" layout="column" layout-align="start center">
+                <h2>Protezione Dati</h2>
+                <img src="https://drive.google.com/uc?export=view&id=1Fcx8MRPVeJq8ibFKZL0IlZShWsU6HMxG">
+            </div>
 </body>
 </html>
 
