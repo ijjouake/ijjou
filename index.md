@@ -32,7 +32,7 @@ p    {color: red;}
     color: red;
     text-align: center;
     background-color: white;
-    background-image: src=("http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf")
+    background-image: url=("http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf");
 }
 </style>
 </head>
