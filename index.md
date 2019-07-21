@@ -6,7 +6,17 @@
 body {background-color: #c1b179;}
 h1   {color: white;}
 p    {color: red;}
- 
+#load {
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    z-index: 25;
+} 
  .cleaning img {
     max-width: 40px;
     height: 40px;
