@@ -23,7 +23,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
                 <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
             </div>
-            
+   <style>          
             /* fit images to container */
 .cleaning img {
     max-width: 100%;
@@ -41,7 +41,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
     max-width: 100%;
     height: auto;
 }
-            
+</style>      
 </body>
 </html>
 
