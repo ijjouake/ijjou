@@ -3,6 +3,7 @@
 <style>
 body {background-color: white;}
 h1   {color: white;}
+h2   {color: black;}
 p    {color: black;}
 
 .page-header {
@@ -33,34 +34,6 @@ I am a big open source believer, therefore I prefer to use R and python for my d
                 <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="width:100px;height:100px;">
             </div>
-            
-            
- <div class="social" layout="row" layout-wrap layout-align="space-around start">
-                    <div>
-                        <md-button href="https://www.facebook.com/groups/209410482776083/">
-                            <md-icon>
-                                <svg enable-background="new 0 0 100 100" height="100px" id="Layer_1" version="1.1" viewBox="0 0 100 100" width="100px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g>
-                                        <circle cx="50" cy="50" fill="#43619B" r="45" />
-                                    </g>
-                                </svg>
-                            </md-icon>
-                        </md-button>
-                    </div>
-                    <div>
-                        <md-button href="">
-                            <md-icon>https://www.instagram.com/1772dailycare/
-                                <svg enable-background="new 0 0 100 100" height="100px" id="Layer_1" version="1.1" viewBox="0 0 100 100" width="100px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g>
-                                        <circle cx="50" cy="50" fill="#2A5C83" r="45" /
-                                    </g>
-                                </svg>
-                            </md-icon>
-                        </md-button>
-                    </div>
-                </div>
-            </div>
-
 </body>
 </html>
   
