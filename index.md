@@ -1,5 +1,3 @@
-## Welcome,
-
 <html>
 <head>
 <style>
