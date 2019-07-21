@@ -20,15 +20,21 @@ A picture says more than a thousand words.
 <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
 
 
-<div class="pagamenti" layout="column" layout-align="start center">
-                <h2>Pagamenti Sicuri</h2>
-                <img src="https://drive.google.com/uc?export=view&id=18GPRA4eDY77FclmYxsyyWBR_Wob-EWxr">
-
+<div class="data.cleaning" layout="column" layout-align="start center">
+                <h2>Data Cleaning</h2>
+                <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
             </div>
-            <div class="protezione dati" layout="column" layout-align="start center">
+            
+ <div class="data.modeling" layout="column" layout-align="start center">
                 <h2>Protezione Dati</h2>
-                <img src="https://drive.google.com/uc?export=view&id=1Fcx8MRPVeJq8ibFKZL0IlZShWsU6HMxG">
+                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
             </div>
+            
+ <div class="data.modeling" layout="column" layout-align="start center">
+                <h2>Data.Visualisation</h2>
+               <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="display: block; margin: auto;" />
+            </div>
+            
 </body>
 </html>
 
