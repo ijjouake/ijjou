@@ -6,7 +6,8 @@
 body {background-color: powderblue;}
 h1   {color: blue;}
 p    {color: red;}
-
+</style>
+</head>
 <body>
  
 <p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
@@ -15,7 +16,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
 <p> On my website you can find some examples of my projects, most of them are interactive visualization.
 </p>
- 
+ <style>
 <div class="cleaning" layout="column" layout-align="start center">
                 <h2>Data Cleaning</h2>
                 <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
