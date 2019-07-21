@@ -33,11 +33,11 @@ p    {color: red;}
     text-align: center;
     background-color: white; 
 }
-.page-header {
-    color: black;
+    .page-header {
+    color: #fff;
     text-align: center;
-    background-color: white;
-    background-image: =("");
+    background-color: #159957;
+    background-image: linear-gradient(120deg, yellow, red);
 }
 </style>
 </head>
