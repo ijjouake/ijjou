@@ -46,7 +46,12 @@ p    {color: black;}
     right: 10px!important;
     top: 10px!important;
     }
-
+@media screen and (min-width: 64em)
+.btn {
+    position: absolute!important;
+    right: 10px!important;
+    top: 10px!important;
+}
 </style>
 </head>
 <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
