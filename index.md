@@ -1,9 +1,9 @@
 <html>
 <head>
 <style>
-body {background-color: #c1b179;}
+body {background-color: white;}
 h1   {color: white;}
-p    {color: red;}
+p    {color: black;}
 #load {
     background: white;
     position: fixed;
@@ -26,12 +26,6 @@ p    {color: red;}
 .visualisation img {
     max-width: 40px;
     height: 40px;
-}
-
-.page-header {
-    color: red;
-    text-align: center;
-    background-color: white; 
 }
     .page-header {
     color: #fff;
