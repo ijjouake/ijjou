@@ -11,23 +11,30 @@ p    {color: red;}
     max-width: 40px;
     height: 40px;
 }
-
-/* fit images to container */
 .modeling img {
     max-width: 40px;
     height: 40px;
 }
-
-/* fit images to container */
 .visualisation img {
     max-width: 40px;
     height: 40px;
 }
 
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
 </style>
 </head>
 <body>
- 
+ <section class="page-header">
+      <h1 class="project-name">ijjou</h1>
+      <h2 class="project-tagline">data analysis, data modeling</h2>
+      
+        <a href="https://github.com/ijjouake/ijjou" class="btn">View on GitHub</a>
+   </section>
 <p>My name is Ijjou, a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
 I am a big open source believer, therefore I prefer to use R and python for my daily work.
