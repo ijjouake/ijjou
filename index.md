@@ -8,9 +8,15 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
 <p> On my website you can find some examples of my projects, most of them are interactive visualization.
 </p>
- <link rel="icon" href=img src="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A">
-![datacleaning](https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A)
-*Data cleaning
+ 
+ *Data cleaning
+ <a href="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A">
+    <img src="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A"
+    style="width: 500px; max-width: 100%; height: auto"
+    title="Click for the larger version." />
+</a>
+
+
 
 ![datavisualisation](https://drive.google.com/open?id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc)
 * Data visualization
