@@ -11,9 +11,6 @@ I am a big open source believer, therefore I prefer to use R and python for my d
  
  *Data cleaning
  <a href="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A">
-    <img src="https://drive.google.com/open?id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A"
-    style="width: 500px; max-width: 100%; height: auto"
-    title="Click for the larger version." />
 </a>
 
 
