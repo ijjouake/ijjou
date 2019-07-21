@@ -13,7 +13,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="display: block; margin: auto;" />
 
 *Data Modeling
-<img src="http://drive.google.com/uc?export=view&id=RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
+<img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="display: block; margin: auto;" />
 
 * Data visualization
 A picture says more than a thousand words.
