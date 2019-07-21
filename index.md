@@ -32,7 +32,7 @@ p    {color: red;}
     color: red;
     text-align: center;
     background-color: white;
-    background-image: linear-gradient(120deg, #155799, #159957);
+    background-image: linear-gradient(120deg, red, white);
 }
 </style>
 </head>
