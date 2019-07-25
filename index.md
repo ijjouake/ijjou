@@ -89,7 +89,7 @@ body {margin:0;height:2000px;}
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-   margin-left: 0px;
+   margin-left: -20px;
 }
 
 .icon-bar a {
