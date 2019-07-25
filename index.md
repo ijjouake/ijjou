@@ -131,7 +131,7 @@ body {margin:0;height:2000px;}
 }
 
 .content {
-  margin-left: 75px;
+  margin-left: 0px;
   font-size: 30px;
 }
 </style>
