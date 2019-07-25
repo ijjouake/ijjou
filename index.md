@@ -14,6 +14,7 @@ p    {color: black;}
     font-style: italic;
     color: #fff;
     margin: 20px auto;
+    opacity:0;
 }
 .project-tagline {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
