@@ -52,7 +52,7 @@ p    {color: black;}
     right: 10px!important;
     top: 10px!important;
     
-    .social-footer {
+   .social-footer {
   padding: 1rem;
   background: $dark-gray;
   display: flex;
@@ -75,7 +75,6 @@ p    {color: black;}
     }
   }
 }
-
 
 }
 </style>
