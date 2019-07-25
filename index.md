@@ -50,32 +50,7 @@ p    {color: black;}
 .main-content .btn {
     position: absolute!important;
     right: 10px!important;
-    top: 10px!important;
-    
-   .social-footer {
-  padding: 1rem;
-  background: $dark-gray;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  .social-footer-icons {
-    li:last-of-type {
-      margin-right: 0;
-    }
-
-   .fa {
-      font-size: 1.3rem;
-      color: $white;
-
-   &:hover {
-        color: darken($dark-gray, 25%);
-        transition: color 0.3s ease-in;
-      }
-    }
-  }
-}
-
+    top: 10px!important;   
 }
 </style>
 </head>
@@ -100,18 +75,53 @@ I am a big open source believer, therefore I prefer to use R and python for my d
                 <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="width:100px;height:100px;">
             </div>
-            
-<footer class="social-footer">
-  <div class="social-footer-left">
-    <a href="#"><img class="logo" src="https://placehold.it/150x30"></a>
-  </div>
-  <div class="social-footer-icons">
-    <ul class="menu simple">
-      <li><a href="https://www.facebook.com/groups/209410482776083/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.instagram.com/1772dailycare/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+   <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
     </ul>
+    <!-- Social buttons -->
+
   </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
 </footer>
+<!-- Footer -->            
 
 </body>
 </html>
