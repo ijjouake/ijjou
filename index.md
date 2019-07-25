@@ -124,7 +124,7 @@ body {margin:0;height:2000px;}
 }
 
 .instagram {
-  background: #dd4b39;
+  background: red;
   color: white;
 }
 
@@ -152,17 +152,6 @@ body {margin:0;height:2000px;}
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
  <!--  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> --> 
  
- <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
 </div>
 </body>
 </body>
