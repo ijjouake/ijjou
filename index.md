@@ -95,13 +95,26 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </svg>
 <div class="md-ripple-container" style=""></div></a>
  </div>
- <div>
-<a class="md-button md-ink-ripple" ng-transclude="" href="https://www.facebook.com/renata.nemola">
-<svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="ng-scope">
-<path class="i" d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"></path>
-</svg>
-<div class="md-ripple-container" style=""></div></a>
- </div>
+ <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get In Touch!</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-2 col-lg-offset-3 text-center">
+                    <a href="https://github.com/binnie869" class="fa fa-github fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
+                </div>
+                <div class="col-lg-2  text-center">
+                    <a href="https://www.linkedin.com/in/anubhavg1" class="fa fa-linkedin fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
+                </div>
+                <!--div class="col-lg-1 text-center">
+                    <a class="fa fa-phone fa-3x wow bounceIn"></i>
+                </div-->
+                <div class="col-lg-2 text-center">
+                    <a href="mailto:anubhav.rg@berkeley.edu" class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></a>
+                </div>
+            </div>
+        </div>
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2018 Copyright:
     <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
