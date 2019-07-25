@@ -85,7 +85,6 @@ body {margin:0;height:2000px;}
 .icon-bar {
   position: fixed;
   top: 50%;
-  left:0px
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
