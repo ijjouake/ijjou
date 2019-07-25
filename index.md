@@ -75,38 +75,77 @@ I am a big open source believer, therefore I prefer to use R and python for my d
                 <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="width:100px;height:100px;">
             </div>
-<!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
+  <!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;height:2000px;}
 
-  <!-- Footer Elements -->
- <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Get In Touch!</h2>
-                    <hr class="primary">
-                </div>
-                <div class="col-lg-2 col-lg-offset-3 text-center">
-                 <a href="https://github.com/binnie869" class="fa fa-github fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
-                </div>
-                <div class="col-lg-2  text-center">
-                 <a href="https://www.linkedin.com/in/anubhavg1" class="fa fa-linkedin fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
-                </div>
-                <!--div class="col-lg-1 text-center">
-                    <a class="fa fa-phone fa-3x wow bounceIn"></i>
-                </div-->
- <div class="col-lg-2 text-center">
- <a href="mailto:anubhav.rg@berkeley.edu" class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></a>
-                </div>
-            </div>
-        </div>
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
-</footer>
-<!-- Footer -->            
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
+</html> 
+
+
 
 </body>
 </html>
