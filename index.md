@@ -36,7 +36,7 @@ p    {color: black;}
  color: #fff;
  text-align: center;
   width: 100%;
-  height: 500px;
+  height: 550px;
   background: url('http://drive.google.com/uc?export=view&id=1WXr2aWCUGwLcZC_X5Rl6f_PCsvmH9Sx0');
   background-size: cover;
 }
