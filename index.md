@@ -115,7 +115,7 @@ body {margin:0;height:2000px;}
   color: white;
 }
 
-.google {
+.instagram {
   background: #dd4b39;
   color: white;
 }
@@ -140,15 +140,11 @@ body {margin:0;height:2000px;}
 <div class="icon-bar">
   <a href="https://www.instagram.com/1772dailycare/" class="facebook"><i class="fa fa-facebook"></i></a> 
   <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="instaagram"><i class="fa fa-instagram"></i></a> 
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
  <!--  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> --> 
 </div>
 </body>
-</html> 
-
-
-
 </body>
 </html>
   
