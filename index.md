@@ -30,7 +30,7 @@ p    {color: black;}
  color: #fff;
  text-align: center;
   width: 100%;
-  height: 400px;
+  height: 600px;
   background: url('http://drive.google.com/uc?export=view&id=1WXr2aWCUGwLcZC_X5Rl6f_PCsvmH9Sx0');
   background-size: cover;
 }
@@ -85,6 +85,7 @@ body {margin:0;height:2000px;}
 .icon-bar {
   position: fixed;
   top: 50%;
+  left:0px
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
