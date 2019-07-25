@@ -80,22 +80,22 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
   <!-- Footer Elements -->
  <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Get In Touch!</h2>
                     <hr class="primary">
                 </div>
                 <div class="col-lg-2 col-lg-offset-3 text-center">
-                    <a href="https://github.com/binnie869" class="fa fa-github fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
+                 <a href="https://github.com/binnie869" class="fa fa-github fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
                 </div>
                 <div class="col-lg-2  text-center">
-                    <a href="https://www.linkedin.com/in/anubhavg1" class="fa fa-linkedin fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
+                 <a href="https://www.linkedin.com/in/anubhavg1" class="fa fa-linkedin fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></a>
                 </div>
                 <!--div class="col-lg-1 text-center">
                     <a class="fa fa-phone fa-3x wow bounceIn"></i>
                 </div-->
-                <div class="col-lg-2 text-center">
-                    <a href="mailto:anubhav.rg@berkeley.edu" class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></a>
+ <div class="col-lg-2 text-center">
+ <a href="mailto:anubhav.rg@berkeley.edu" class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></a>
                 </div>
             </div>
         </div>
