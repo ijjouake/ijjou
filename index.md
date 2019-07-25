@@ -16,15 +16,20 @@ p    {color: black;}
     margin: 20px auto;
 }
 .project-tagline {
-    font-size: 4rem;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: yellow;
-    font-weight: normal;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-family: "proxima-nova";
+    font-size: 67px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff
+    
 }
 .page-header {
  color: #fff;
