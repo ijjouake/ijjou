@@ -4,7 +4,7 @@
 body {background-color: white;}
 p    {color: black;}
  
- .project-name {
+ <!--.project-name {
     font-size: 4rem;
     font-family: "adobe-garamond-pro";
     line-height: 1em;
@@ -13,7 +13,7 @@ p    {color: black;}
     font-weight: 400;
     font-style: italic;
     color: #fff;
-    margin: 20px auto;
+    margin: 20px auto; -->
 }
 .project-tagline {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
