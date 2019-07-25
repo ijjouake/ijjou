@@ -28,7 +28,7 @@ p    {color: black;}
     letter-spacing: 4px;
     font-weight: 700;
     font-style: normal;
-    color: red;
+    color: yellow;
     
 }
 .page-header {
