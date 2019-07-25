@@ -51,6 +51,32 @@ p    {color: black;}
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
+    
+    .social-footer {
+  padding: 1rem;
+  background: $dark-gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .social-footer-icons {
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+   .fa {
+      font-size: 1.3rem;
+      color: $white;
+
+   &:hover {
+        color: darken($dark-gray, 25%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  }
+}
+
+
 }
 </style>
 </head>
@@ -75,6 +101,21 @@ I am a big open source believer, therefore I prefer to use R and python for my d
                 <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="width:100px;height:100px;">
             </div>
+            
+<footer class="social-footer">
+  <div class="social-footer-left">
+    <a href="#"><img class="logo" src="https://placehold.it/150x30"></a>
+  </div>
+  <div class="social-footer-icons">
+    <ul class="menu simple">
+      <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+      <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</footer>
+
 </body>
 </html>
   
