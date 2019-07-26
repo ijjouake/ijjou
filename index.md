@@ -125,7 +125,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
                  © <script> document.write(new Date().getFullYear()) </script> Ijjou Akentour 
            </div>   
 </div>
-
+</div>
  
 </html>           
   
