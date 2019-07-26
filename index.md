@@ -41,7 +41,7 @@ p    {color: black;}
     
 }
 .page-header {
- color: #fff;
+ color: back;
  text-align: center;
   width: 100%;
   height: 550px;
