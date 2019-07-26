@@ -335,46 +335,8 @@ body {margin:0;height:2000px;}
     box-shadow: 0 0 24px 0 #dd4b39
   }
 }
-.facebook {
-  background: #b78f52;
-  color: white;
-}
-
-.twitter {
-  background: #b78f52;
-  color: white;
-}
-
-.instagram {
-  background: #b78f52;
-  color: white;
-}
-
-.linkedin {
-  background: #b78f52;
-  color: white;
-}
-<!--
-.youtube {
-  background: #b78f52;
-  color: white;
-}
--->
-.content {
-  margin-left: 5px;
-  font-size: 30px;
-}
 </style>
 <body>
-
-<div class="icon-bar">
-  <a href="https://www.instagram.com/1772dailycare/" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
-  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
- <!--  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> --> 
- 
-</div>
 </body>
 </body>
 </html>
