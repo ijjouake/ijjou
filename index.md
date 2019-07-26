@@ -40,9 +40,9 @@ p    {color: black;}
   filter:opacity(0.5);
 }
 .btn:hover {
-    color: rgba(255, 255, 250, 1);
+    color: #b78f52;
     text-decoration: none;
-    background-color: rgba(255,255,255,1);
+    background-color: r#b78f52;
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 white;
     }
@@ -56,7 +56,7 @@ p    {color: black;}
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
-    background-color: #e6807b;
+    background-color: #b78f52;
      text-transform: uppercase;
 }
 }
@@ -110,34 +110,34 @@ body {margin:0;height:2000px;}
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #b78f52;
 }
 
 .facebook {
-  background: #3B5998;
+  background: #b78f52;
   color: white;
 }
 
 .twitter {
-  background: #55ACEE;
+  background: #b78f52;
   color: white;
 }
 
 .instagram {
-  background: red;
+  background: #b78f52;
   color: white;
 }
 
 .linkedin {
-  background: #007bb5;
+  background: #b78f52;
   color: white;
 }
-
+<!--
 .youtube {
-  background: #bb0000;
+  background: #b78f52;
   color: white;
 }
-
+-->
 .content {
   margin-left: 5px;
   font-size: 30px;
@@ -148,7 +148,7 @@ body {margin:0;height:2000px;}
 <div class="icon-bar">
   <a href="https://www.instagram.com/1772dailycare/" class="facebook"><i class="fa fa-facebook"></i></a> 
   <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="#" class="instaagram"><i class="fa fa-instagram"></i></a> 
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
  <!--  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> --> 
  
