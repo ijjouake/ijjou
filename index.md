@@ -196,7 +196,6 @@ c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z" 
 
 </div>
 </div>
-  <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -343,24 +342,24 @@ body {margin:0;height:2000px;}
   <div class="container-fluid text-center text-md-left">
 
     <!-- Grid row -->
-    <div class="row">
+   <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
+   <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+   <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
           repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
           harum esse fugiat. Itaque, culpa?</p>
 
-      </div>
+   </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none pb-3">
+   <hr class="clearfix w-100 d-md-none pb-3">
 
       <!-- Grid column -->
-      <div class="col-md-6 mb-md-0 mb-3">
+   <div class="col-md-6 mb-md-0 mb-3">
 
         <!-- Content -->
    <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
