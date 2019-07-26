@@ -119,11 +119,13 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
 <div class="footer">
  <!-- Footer -->
-</div>
+<div class="container">
 
 <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script>Ijjou Akentour 
-           </div>     
-</style>
+                 © <script> document.write(new Date().getFullYear()) </script> Ijjou Akentour 
+           </div>   
+</div>
+
+ 
 </html>           
   
