@@ -118,11 +118,11 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
 
 <div class="footer">
-  <p>Footer</p>
+ <!-- Footer -->
 </div>
 
 <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script>2019 Code and Stuff.
+                 © <script> document.write(new Date().getFullYear()) </script>2019 Ijjou 
            </div>
 
 </style>
