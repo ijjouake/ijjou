@@ -16,7 +16,7 @@ p    {color: black;}
     margin: 20px auto;
     opacity:0;
 }
-.project-tagline {
+.project-tagline!important {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 48px;
@@ -39,6 +39,7 @@ p    {color: black;}
   height: 550px;
   background: url('http://drive.google.com/uc?export=view&id=1WXr2aWCUGwLcZC_X5Rl6f_PCsvmH9Sx0');
   background-size: cover;
+  filter:opacity(0.5);
 }
 .btn:hover {
     color: rgba(255, 255, 250, 0.8);
