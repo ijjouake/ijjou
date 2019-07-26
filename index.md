@@ -31,7 +31,7 @@ p    {color: black;}
     color: #b78f52;
     letter-spacing: 0px;
     text-transform: none;
-    font-size: 67px;
+    font-size: 57px;
     line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 4px;
