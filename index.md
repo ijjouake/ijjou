@@ -18,7 +18,7 @@ p    {color: black;}
 }
 .project-tagline{
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    opacity:6;
+    opacity:100;
     font-weight: 400;
     font-size: 48px;
     letter-spacing: 0px;
