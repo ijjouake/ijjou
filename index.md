@@ -336,8 +336,6 @@ body {margin:0;height:2000px;}
   }
 }
 </style>
-<body>
-</body>
 </body>
 </html>
   
