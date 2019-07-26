@@ -351,6 +351,10 @@ body {margin:0;height:2000px;}
   <p>Footer</p>
 </div>
 
+<div class="copyright">
+                 © <script> document.write(new Date().getFullYear()) </script>2019 Code and Stuff.
+           </div>
+
 </style>
 </html>
   
