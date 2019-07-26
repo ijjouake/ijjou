@@ -41,13 +41,13 @@ p    {color: black;}
     
 }
 .page-header {
- color: back;
+ color: #fff;
  text-align: center;
   width: 100%;
   height: 550px;
   background: url('http://drive.google.com/uc?export=view&id=1WXr2aWCUGwLcZC_X5Rl6f_PCsvmH9Sx0');
   background-size: cover;
-  filter:opacity(0.5);
+  filter:opacity(1);
 }
 .btn:hover {
     color: #b78f52;
