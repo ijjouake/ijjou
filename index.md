@@ -4,6 +4,15 @@
 body {background-color: white;}
 p    {color: black;}
  
+ .main-content :first-child {
+    margin-top: 0;
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color:  #b78f52;
+}
  .project-name {
     font-size: 4rem;
     font-family: "adobe-garamond-pro";
@@ -42,7 +51,7 @@ p    {color: black;}
 .btn:hover {
     color: #b78f52;
     text-decoration: none;
-    background-color: r#b78f52;
+    background-color: #b78f52;
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 white;
     }
