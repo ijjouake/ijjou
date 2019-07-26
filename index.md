@@ -378,10 +378,8 @@ body {margin:0;height:2000px;}
     <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
   </div>
   <!-- Copyright -->
-
 </footer>
 <!-- Footer -->
 </style>
-</body>
 </html>
   
