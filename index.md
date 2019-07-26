@@ -18,19 +18,16 @@ p    {color: black;}
 }
 .project-tagline{
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    opacity:100;
-    font-weight: 400;
-    font-size: 48px;
+    opacity: 1;
+    color: yellow;
     letter-spacing: 0px;
     text-transform: none;
-    font-family: "proxima-nova";
     font-size: 67px;
     line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 700;
     font-style: normal;
-    color: yellow;
     
 }
 .page-header {
@@ -43,11 +40,11 @@ p    {color: black;}
   filter:opacity(0.5);
 }
 .btn:hover {
-    color: rgba(255, 255, 250, 0.8);
+    color: rgba(255, 255, 250, 1);
     text-decoration: none;
-    background-color: rgba(255,255,255,0.2);
-    border-color: rgba(255,255,255,0.3);
-    box-shadow: 0 0 black;
+    background-color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
+    box-shadow: 0 0 white;
     }
     .main-content .btn{
     position: absolute!important;
