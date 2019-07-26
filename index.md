@@ -122,9 +122,8 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </div>
 
 <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script>2019 Ijjou 
-           </div>
-
+                 © <script> document.write(new Date().getFullYear()) </script>Ijjou Akentour 
+           </div>     
 </style>
-</html>
+</html>           
   
