@@ -363,21 +363,6 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
-
-<div>
-   <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
-     <link rel="stylesheet" href="styles.css">
- </div>
-
-<div>
-   <h1>Welcome to</h1>
-    <canvas id="myCanvas"></canvas>
-    <script type="text/javascript" src="bubbles.js"></script>
-    <script type="text/javascript" src="main.js"></script>
- </div>
-
-
           <!-- Footer-->
         
   <div class="footer-inner-new">          
@@ -414,19 +399,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-<script>
-var wordToDisplay = "Codecademy";
 
-var red = [0, 100, 63];
-var orange = [40, 100, 60];
-var green = [75, 100, 40];
-var blue = [196, 77, 55];
-var purple = [280, 50, 60];
-var letterColors = [red, orange, green, blue, purple];
-
-drawName(wordToDisplay, letterColors);
-
-bubbleShape = 'circle';
-
-bounceBubbles();
-</script>
