@@ -347,7 +347,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="http://drive.google.com/uc?export=view&id=1WQFT1WklLAHtVK11SORleURUxbAMEQWT/view?usp=sharing" style="width:100%">
+    <img src="http://drive.google.com/uc?export=view&id=1WQFT1WklLAHtVK11SORleURUxbAMEQWT" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
