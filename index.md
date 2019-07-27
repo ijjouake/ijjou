@@ -143,6 +143,9 @@ h1 {
     width: 100%;
   }
 }
+.site-footer-credit{
+display:none;
+}
 
 .site-footer-owner{
 display:none;
