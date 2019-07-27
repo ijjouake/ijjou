@@ -61,13 +61,14 @@ p    {color: black;}
     right: 10px!important;
     top: 10px!important;
     }
-@media screen and (min-width: 64em)
+
 .main-content .btn {
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
     background-color: #b78f52;
      text-transform: uppercase;
+     }
      
    h2 {
    display: block;
@@ -77,8 +78,6 @@ p    {color: black;}
    margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-}
 }
 
 .footer {
@@ -90,8 +89,10 @@ p    {color: black;}
   color: white;
   text-align: center;
 }
-}
 
+footer.site-footer{
+display: none;
+}
 </style>
 </head>
 
