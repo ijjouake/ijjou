@@ -416,7 +416,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
+<script>
 var wordToDisplay = "Codecademy";
 
 var red = [0, 100, 63];
@@ -431,4 +431,4 @@ drawName(wordToDisplay, letterColors);
 bubbleShape = 'circle';
 
 bounceBubbles();
-
+</script>
