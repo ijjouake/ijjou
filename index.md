@@ -226,7 +226,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </div>
 
 <div class="content">
-  <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:80px;height:80px">
+  <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
   <h3>My name is Ijjou, ....</h3>
   <p>Lorem ipsum..</p>
 </div>
