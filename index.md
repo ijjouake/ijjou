@@ -163,7 +163,7 @@ display: none;
 </style>
 </head>
 
-<div class=".project-tagline" layout_align="start center">
+<div class=".project-tagline, .page-header, .page-header " layout_align="start center">
  <h1>Welcome, I'm Ijjou<h1>
   <p> And this is my portfolio</p>
    </div>
