@@ -222,19 +222,12 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <h3>My name is Ijjou, ....</h3>
   <p>Lorem ipsum..</p>
 </div>
-
-<div class="footer-inner">
-          <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="#header">Back to Top</a></div></nav></div>
-          <div id="secondaryNavWrapper" class="nav-wrapper" data-content-field="navigation-secondaryNav">
-  <nav id="secondaryNavigation" data-content-field="navigation-secondaryNav">
     
-      
-        
+
         <!-- Footer-->
         
   <div class="footer-inner">          
  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p></div></div></div></div></div>
-        </div>
         
 <!-- END MAIN -->
 </div>
