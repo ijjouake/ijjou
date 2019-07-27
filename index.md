@@ -171,22 +171,23 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 </p>
 <p> On my website you can find some examples of my projects, most of them are interactive visualization.
 </p>
+<!--
 <div class="cleaning" layout="column" layout-align="start center">
                 <h2>Data Cleaning</h2>
                 <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="width:100px;height:100px;">
-            </div>
-            
+            </div> -->
+   <!--         
  <div class=".modeling" layout="column" layout-align="start center">
                 <h2>Data Modeling</h2>
-                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:100px;height:100px;">
+                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:100px;height:100px;">  -->
             </div>
-            
+   <!--         
  <div class=".visualisation " layout="column" layout-align="start center">
                 <h2>Data Visualisation</h2>
                <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="width:100px;height:100px;">
             </div>
- <svg class="svg--source" width="0" height="0" aria-hidden="true">
-
+ <svg class="svg--source" width="0" height="0" aria-hidden="true"> -->
+ 
    <!-- MAIN (Center website) -->
 <div class="main">
 <hr>
@@ -199,28 +200,28 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
+      <h3>Data Cleaning</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
+      <h3>Data Visualisation</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
+      <h3>Data Modeling</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
+      <h3>Machine Learning</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
