@@ -189,8 +189,6 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
    <!-- MAIN (Center website) -->
 <div class="main">
-
-<h1>MYLOGO.COM</h1>
 <hr>
 
 <h2>PORTFOLIO</h2>
@@ -200,28 +198,28 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Mountains" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src="lights.jpg" alt="Lights" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Lights" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src="nature.jpg" alt="Nature" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Nature" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Mountains" style="width:100%">
       <h3>My Work</h3>
       <p>Lorem ipsum..</p>
     </div>
