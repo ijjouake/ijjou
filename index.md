@@ -144,6 +144,9 @@ h1 {
   }
 }
 
+.site-footer-owner{
+display:none;
+}
 .footer-inner-new{
 max-width: 1020px;
 }   
