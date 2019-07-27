@@ -199,7 +199,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Mountains" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1WXr2aWCUGwLcZC_X5Rl6f_PCsvmH9Sx0" alt="Mountains" style="width:100%">
       <h3>Data Cleaning</h3>
       <p>Lorem ipsum..</p>
     </div>
@@ -213,7 +213,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   </div>
   <div class="column">
     <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Nature" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" alt="Nature" style="width:100%">
       <h3>Data Modeling</h3>
       <p>Lorem ipsum..</p>
     </div>
