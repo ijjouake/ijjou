@@ -364,20 +364,18 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<div>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
      <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>Welcome to</h1>
+ </div>
+
+<div>
+   <h1>Welcome to</h1>
     <canvas id="myCanvas"></canvas>
     <script type="text/javascript" src="bubbles.js"></script>
     <script type="text/javascript" src="main.js"></script>
-  </body>
-</html>
+ </div>
 
 
           <!-- Footer-->
