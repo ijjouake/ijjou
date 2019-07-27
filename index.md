@@ -1,4 +1,3 @@
-<html>
 <head>
 <style>
 body {background-color: white;}
@@ -158,6 +157,164 @@ max-width: 1020px;
     max-width: 1020px;
     display: none;
 
+// Number of slides
+$slide-count: 5;
+
+// Tab colours (must be same as number of slides)
+$c-slides: #2E112D #540032 #820333 #C9283E #F0433A;
+
+// Slide backgrounds (must be same as number of slides)
+$b-slides: url('https://placehold.it/2000x2500/2E112D/fff?text=1') url('https://placehold.it/2000x2500/540032/fff?text=2') url('https://placehold.it/2000x2500/820333/fff?text=3') 
+url('https://placehold.it/2000x2500/C9283E/fff?text=4') 
+url('https://placehold.it/2000x2500/F0433A/fff?text=5');
+
+// Total duration of slide animation
+$animation-duration: 1s;
+
+// Dimensions of the slides
+$slide-width: 50%;
+$slide-height: 100%;
+
+// Slide content overflow (auto or hidden)
+$slide-overflow: auto;
+
+// Slide content colours
+$c-black: #000;
+$c-grey: #AAA;
+$c-light-grey: #DDD;
+
+// Other colours
+$c-background: #101010;
+$c-text: $c-light-grey;
+$c-label-text: $c-grey;
+
+/****************************************/
+
+html, body {
+  margin: 0;
+  background-color: $c-background;
+  font-family: sans-serif;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: $c-black;
+  overflow: hidden;
+}
+
+input {
+  display: none;
+  
+  &:checked + .slide {
+    transform: translateX(0px);
+    transition: transform #{$animation-duration / 2} ease-in-out;
+    
+    .slide__content {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+@mixin slide-popout {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+.slide {
+  transform: translateX(#{-$slide-width * 2});
+  position: absolute;
+  width: $slide-width;
+  height: $slide-height;
+  background-size: $slide-width $slide-height;
+  transition: transform #{$animation-duration / 2} ease-in-out;
+  
+  &__content {
+    box-sizing: border-box;
+    height: calc(100% - 60px);
+    overflow: $slide-overflow;
+    padding: 50px;
+    color: $c-text;
+    position: absolute;
+    left: 100%;
+    display: none;
+    animation-name: fade-in;
+    animation-duration: $animation-duration;
+    animation-iteration-count: 1;
+    opacity: 1;
+  }
+  
+ $i: 1;
+ @each $slide in $b-slides {
+    &:nth-child(#{$i * 3}) {
+      background: $slide;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      
+   &:after {
+    @include slide-popout;
+      }
+    }
+    $i: $i + 1;
+  }
+}
+
+label {
+  box-sizing: border-box;
+  color: $c-label-text;
+  font-weight: bold;
+  display: block;
+  width: calc((50% / #{$slide-count}) - 2%);
+  margin: 5px 1%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 4px $c-grey;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  text-transform: uppercase;
+  
+  &:hover {
+    cursor: pointer;
+    color: #FFF;
+    border-bottom: solid 4px #FFF;
+  }
+  
+  $i: 0;
+  @each $slide in $c-slides {
+    &:nth-child(#{($i * 3) + 1}) {
+      left: calc(50% + (#{$i} * (50% / #{$slide-count})));
+      border-bottom-color: $slide;
+    }
+    $i: $i + 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .site-footer{
 display: none;
 }
@@ -233,6 +390,73 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <p>Lorem ipsum..</p>
 </div>
     
+    <!--slide gallery-->
+    
+    <fieldset class="slideshow">
+
+  <!-- Slide 1 -->
+  <label class="slide-button" for="slideCheckbox1">Intro</label>
+  <input type="radio" id="slideCheckbox1" name="slide" checked></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>Slideshow Concept (No JS)</h1>
+      <p>A pure CSS and HTML slideshow concept.</p>
+      <p>To add or remove slides:</p>
+      <ul>
+        <li>Add a new slide template in the HTML</li>
+        <li>Update the <code>$slide-count</code> SCSS variable</li>
+        <li>Tab colours: Update the <code>$c-slides</code> SCSS variable</li>
+        <li>Slide popout images: Update the <code>$b-slides</code> SCSS variable</li>
+      </ul>
+      <p>Use the tabs below to change slide.</p>
+      <p>Et voila.</p>
+    </div>  
+  </div>
+
+  <!-- Slide 2 -->
+  <label class="slide-button" for="slideCheckbox2">More</label>
+  <input type="radio" id="slideCheckbox2" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>More</h1>
+      <p>More here</p>
+    </div> 
+  </div>
+
+  <!-- Slide 3 -->
+  <label class="slide-button" for="slideCheckbox3">Yet More</label>
+  <input type="radio" id="slideCheckbox3" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>Yet More</h1>
+      <p>Yet more here</p>
+    </div>  
+  </div>
+
+  <!-- Slide 4 -->
+  <label class="slide-button" for="slideCheckbox4">Zzz</label>
+  <input type="radio" id="slideCheckbox4" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>Zzz</h1>
+      <p>Yada yada</p>
+    </div>   
+  </div>
+
+  <!-- Slide 5 -->
+  <label class="slide-button" for="slideCheckbox5">The End</label>
+  <input type="radio" id="slideCheckbox5" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>The end</h1>
+      <p>It's over</p>
+    </div>  
+  </div>
+
+  <!-- Add more slides here! -->
+
+</fieldset>
+
 
         <!-- Footer-->
         
@@ -240,6 +464,5 @@ I am a big open source believer, therefore I prefer to use R and python for my d
  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p></div></div></div></div></div>
         
 <!-- END MAIN -->
-</div>
-</html>           
+</div>         
   
