@@ -104,6 +104,101 @@ h1 {
   margin: 8px -16px;
 }
 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
@@ -156,164 +251,6 @@ max-width: 1020px;
 .footer-inner, .pre-footer-inner {
     max-width: 1020px;
     display: none;
-
-// Number of slides
-$slide-count: 5;
-
-// Tab colours (must be same as number of slides)
-$c-slides: #2E112D #540032 #820333 #C9283E #F0433A;
-
-// Slide backgrounds (must be same as number of slides)
-$b-slides: url('https://placehold.it/2000x2500/2E112D/fff?text=1') url('https://placehold.it/2000x2500/540032/fff?text=2') url('https://placehold.it/2000x2500/820333/fff?text=3') 
-url('https://placehold.it/2000x2500/C9283E/fff?text=4') 
-url('https://placehold.it/2000x2500/F0433A/fff?text=5');
-
-// Total duration of slide animation
-$animation-duration: 1s;
-
-// Dimensions of the slides
-$slide-width: 50%;
-$slide-height: 100%;
-
-// Slide content overflow (auto or hidden)
-$slide-overflow: auto;
-
-// Slide content colours
-$c-black: #000;
-$c-grey: #AAA;
-$c-light-grey: #DDD;
-
-// Other colours
-$c-background: #101010;
-$c-text: $c-light-grey;
-$c-label-text: $c-grey;
-
-/****************************************/
-
-html, body {
-  margin: 0;
-  background-color: $c-background;
-  font-family: sans-serif;
-}
-
-.slideshow {
-  width: 100%;
-  height: 100%;
-  border: 0px;
-  padding: 0px;
-  margin: 0 auto;
-  background-color: $c-black;
-  overflow: hidden;
-}
-
-input {
-  display: none;
-  
-  &:checked + .slide {
-    transform: translateX(0px);
-    transition: transform #{$animation-duration / 2} ease-in-out;
-    
-    .slide__content {
-      width: 100%;
-      display: block;
-    }
-  }
-}
-
-@mixin slide-popout {
-  position: absolute;
-  margin: auto;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100px;
-}
-
-.slide {
-  transform: translateX(#{-$slide-width * 2});
-  position: absolute;
-  width: $slide-width;
-  height: $slide-height;
-  background-size: $slide-width $slide-height;
-  transition: transform #{$animation-duration / 2} ease-in-out;
-  
-  &__content {
-    box-sizing: border-box;
-    height: calc(100% - 60px);
-    overflow: $slide-overflow;
-    padding: 50px;
-    color: $c-text;
-    position: absolute;
-    left: 100%;
-    display: none;
-    animation-name: fade-in;
-    animation-duration: $animation-duration;
-    animation-iteration-count: 1;
-    opacity: 1;
-  }
-  
- $i: 1;
- @each $slide in $b-slides {
-    &:nth-child(#{$i * 3}) {
-      background: $slide;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-position: center;
-      
-   &:after {
-    @include slide-popout;
-      }
-    }
-    $i: $i + 1;
-  }
-}
-
-label {
-  box-sizing: border-box;
-  color: $c-label-text;
-  font-weight: bold;
-  display: block;
-  width: calc((50% / #{$slide-count}) - 2%);
-  margin: 5px 1%;
-  height: 50px;
-  line-height: 50px;
-  border-bottom: solid 4px $c-grey;
-  text-align: center;
-  position: absolute;
-  bottom: 5px;
-  text-transform: uppercase;
-  
-  &:hover {
-    cursor: pointer;
-    color: #FFF;
-    border-bottom: solid 4px #FFF;
-  }
-  
-  $i: 0;
-  @each $slide in $c-slides {
-    &:nth-child(#{($i * 3) + 1}) {
-      left: calc(50% + (#{$i} * (50% / #{$slide-count})));
-      border-bottom-color: $slide;
-    }
-    $i: $i + 1;
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
 
 .site-footer{
 display: none;
@@ -392,70 +329,48 @@ I am a big open source believer, therefore I prefer to use R and python for my d
     
     <!--slide gallery-->
     
-    <fieldset class="slideshow">
+    <!-- Slideshow container -->
+<div class="slideshow-container">
 
-  <!-- Slide 1 -->
-  <label class="slide-button" for="slideCheckbox1">Intro</label>
-  <input type="radio" id="slideCheckbox1" name="slide" checked></input>
-  <div class="slide">
-    <div class="slide__content">
-      <h1>Slideshow Concept (No JS)</h1>
-      <p>A pure CSS and HTML slideshow concept.</p>
-      <p>To add or remove slides:</p>
-      <ul>
-        <li>Add a new slide template in the HTML</li>
-        <li>Update the <code>$slide-count</code> SCSS variable</li>
-        <li>Tab colours: Update the <code>$c-slides</code> SCSS variable</li>
-        <li>Slide popout images: Update the <code>$b-slides</code> SCSS variable</li>
-      </ul>
-      <p>Use the tabs below to change slide.</p>
-      <p>Et voila.</p>
-    </div>  
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
   </div>
 
-  <!-- Slide 2 -->
-  <label class="slide-button" for="slideCheckbox2">More</label>
-  <input type="radio" id="slideCheckbox2" name="slide"></input>
-  <div class="slide">
-    <div class="slide__content">
-      <h1>More</h1>
-      <p>More here</p>
-    </div> 
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
   </div>
 
-  <!-- Slide 3 -->
-  <label class="slide-button" for="slideCheckbox3">Yet More</label>
-  <input type="radio" id="slideCheckbox3" name="slide"></input>
-  <div class="slide">
-    <div class="slide__content">
-      <h1>Yet More</h1>
-      <p>Yet more here</p>
-    </div>  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
   </div>
 
-  <!-- Slide 4 -->
-  <label class="slide-button" for="slideCheckbox4">Zzz</label>
-  <input type="radio" id="slideCheckbox4" name="slide"></input>
-  <div class="slide">
-    <div class="slide__content">
-      <h1>Zzz</h1>
-      <p>Yada yada</p>
-    </div>   
-  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
 
-  <!-- Slide 5 -->
-  <label class="slide-button" for="slideCheckbox5">The End</label>
-  <input type="radio" id="slideCheckbox5" name="slide"></input>
-  <div class="slide">
-    <div class="slide__content">
-      <h1>The end</h1>
-      <p>It's over</p>
-    </div>  
-  </div>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
 
-  <!-- Add more slides here! -->
+  
 
-</fieldset>
+ 
+
+  
+
+  
 
 
         <!-- Footer-->
