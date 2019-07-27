@@ -158,7 +158,7 @@ max-width: 1020px;
     max-width: 1020px;
     display: none;
 
-footer.site-footer{
+.site-footer{
 display: none;
 }
 </style>
