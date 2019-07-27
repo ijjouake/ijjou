@@ -163,7 +163,10 @@ display: none;
 </style>
 </head>
 
-
+<div class=".project-tagline" layout_align="start center">
+ <h1>Welcome, I'm Ijjou<h1>
+  <p> And this is my portfolio</p>
+   </div>
 <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
 <body><p>My name is Ijjou, I'm a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
