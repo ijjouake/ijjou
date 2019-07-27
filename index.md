@@ -85,7 +85,7 @@ p    {color: black;}
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #fff;
   padding: 0px;
   font-family: Arial;
 }
