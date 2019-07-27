@@ -341,13 +341,13 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
+    <img src="http://drive.google.com/uc?export=view&id=1giCn0j9RcoW4NM5qAsPFmqtME0SyHhUf" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
+    <img src="http://drive.google.com/uc?export=view&id=1WQFT1WklLAHtVK11SORleURUxbAMEQWT/view?usp=sharing" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
