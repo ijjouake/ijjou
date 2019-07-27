@@ -179,8 +179,8 @@ I am a big open source believer, therefore I prefer to use R and python for my d
    <!--         
  <div class=".modeling" layout="column" layout-align="start center">
                 <h2>Data Modeling</h2>
-                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:100px;height:100px;">  -->
-            </div>
+                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:100px;height:100px;"> </div> -->
+            
    <!--         
  <div class=".visualisation " layout="column" layout-align="start center">
                 <h2>Data Visualisation</h2>
