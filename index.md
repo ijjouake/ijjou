@@ -86,7 +86,7 @@ p    {color: black;}
 
 body {
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 0px;
   font-family: Arial;
 }
 
@@ -191,8 +191,8 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 <div class="main">
 <hr>
 
-<h2>PORTFOLIO</h2>
-<p>Resize the browser window to see the responsive effect.</p>
+<h2>Last Projects</h2>
+<p>A few pieces of my last projects.</p>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
@@ -234,8 +234,5 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 
 <!-- END MAIN -->
 </div>
- 
- 
-   
 </html>           
   
