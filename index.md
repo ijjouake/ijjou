@@ -335,7 +335,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="img1.jpg" style="width:100%">
+    <img src="http://drive.google.com/uc?export=view&id=1B8d3szl84gao7hPLxMYLP9_AohUTRatY" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
@@ -364,16 +364,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
-  
-
- 
-
-  
-
-  
-
-
-        <!-- Footer-->
+          <!-- Footer-->
         
   <div class="footer-inner-new">          
  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p></div></div></div></div></div>
