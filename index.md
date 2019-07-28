@@ -408,7 +408,7 @@ function showSlides(n) {
     min-width: 100%;
   }
 </style>
-<iframe id="myIframe" src="http://127.0.0.1:4482/" scrolling="no" frameborder="no"></iframe>
+<iframe id="myIframe" src="http://127.0.0.1:4482/" scrolling="yes" frameborder="no"></iframe>
 <script>
   iFrameResize({
     heightCalculationMethod: 'taggedElement'
