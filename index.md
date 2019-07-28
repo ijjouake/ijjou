@@ -370,7 +370,21 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <div class="footer-inner-new">          
  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p></div></div></div></div></div>
        
-</div>         
+</div>    
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.16/iframeResizer.min.js"></script>
+<style>
+  iframe {
+    min-width: 100%;
+  }
+</style>
+<iframe id="myIframe" src="http://127.0.0.1:4482/" scrolling="yes" frameborder="no"></iframe>
+<script>
+  iFrameResize({
+    heightCalculationMethod: 'taggedElement'
+  });
+</script>
+
   <script>
   var slideIndex = 1;
 showSlides(slideIndex);
@@ -400,18 +414,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-</script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.16/iframeResizer.min.js"></script>
-<style>
-  iframe {
-    min-width: 100%;
-  }
-</style>
-<iframe id="myIframe" src="http://127.0.0.1:4482/" scrolling="yes" frameborder="no"></iframe>
-<script>
-  iFrameResize({
-    heightCalculationMethod: 'taggedElement'
-  });
 </script>
 
