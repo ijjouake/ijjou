@@ -309,7 +309,7 @@ hr {
 
 <div class="vl"></div>
 
-<div class="backgroundtext">
+<div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
  <h3>My name is Ijjou</h3>
  <p>I'm a business analyst with a background in statistics and management..
