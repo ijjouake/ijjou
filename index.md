@@ -8,7 +8,7 @@ p    {color: black;}
 
 @media screen and (min-width: 100em)
 .main-content {
-    max-width: 100rem!important;
+    max-width: 100rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
