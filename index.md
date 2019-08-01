@@ -15,6 +15,7 @@ p    {color: black;}
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    max-width: 100rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
