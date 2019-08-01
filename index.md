@@ -182,6 +182,11 @@ h1 {
   width: 33.33%;
 }
 
+.column2 {
+  float: left;
+  width: 25%;
+}
+
 /* Clear floats after rows */ 
 .row:after {
   content: "";
@@ -287,6 +292,35 @@ display: none;
 <hr>
 
 <div class="vl"></div>
+
+<div class="column2">
+    <div class="content">
+      <img src="http://drive.google.com/uc?export=view&id=1MOdTjhRf70jbkXtBeerWUvEkmR2QFXlD" alt="Lights" style="width:100%">
+      <h3>Data Visualisation</h3>
+      <p>"Painting pictures with numbers is what makes the statistics unique and powerful."</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="content">
+      <img src="http://drive.google.com/uc?export=view&id=1lsefpvecebCCws9TH7sLKiNHxExN2h0w" alt="Nature" style="width:100%">
+      <h3>Data Modeling</h3>
+      <p>Without the Data Model, data can completely fail to provide business value.</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="content">
+      <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
+      <h3>Machine Learning</h3>
+      <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
+    </div>
+  </div>
+  <div class="column2">
+    <div class="content">
+      <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
+      <h3>Machine Learning</h3>
+      <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
+    </div>
+  </div>
 
 <div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
