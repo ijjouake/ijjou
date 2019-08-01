@@ -270,7 +270,6 @@ display: none;
    <!-- MAIN (Center website) -->
 <!--<div class="main">-->
  
-<hr>
 
 <h2>At the heart of every great business decision is data.</h2>
 
@@ -296,8 +295,7 @@ display: none;
       <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
     </div>
   </div>
-
-<hr>   
+<hr>
 
 <div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
