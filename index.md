@@ -199,7 +199,7 @@ h1 {
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: center;
+  float: left;
   width: 25%;
 }
 
