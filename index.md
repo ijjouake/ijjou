@@ -294,7 +294,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
   </div>
   <div class="column">
     <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
       <h3>Machine Learning</h3>
       <p>Lorem ipsum..</p>
     </div>
