@@ -256,8 +256,8 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
-.vl {
-  border-left: 6px solid grey;
+.vl{
+  border-left: 6px solid green;
   width: 500px;
 }
 
@@ -313,7 +313,9 @@ hr {
     </div>
   </div>
 <hr>
+
 <div class="vl"></div>
+
 <div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
  <h3>My name is Ijjou</h3>
