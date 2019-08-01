@@ -6,12 +6,10 @@ p    {color: black;}
     margin-top: 0;
 }
 
-@media screen and (min-width: 100em)
+@media screen and (min-width: 100em){
 .main-content {
-    max-width: 100rem!important;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
+    max-width: none!important;
+}
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
