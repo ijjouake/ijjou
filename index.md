@@ -293,6 +293,8 @@ display: none;
 
 <div class="vl"></div>
 
+<h2>My last projects</h2>
+
 <div class="column2">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1MOdTjhRf70jbkXtBeerWUvEkmR2QFXlD" alt="Lights" style="width:100%">
