@@ -304,8 +304,11 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
 
 <div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
-  <h3>My name is Ijjou, ....</h3>
-  <p>Lorem ipsum..</p>
+ <h3>My name is Ijjou</h3>
+ <p>I'm a business analyst with a background in statistics and management..
+Getting insights out of data to build a business strategy is something that I really like. 
+I am a big open source believer, therefore I prefer to use R and Python for my daily work.</p>
+  
 </div>
           <!-- Footer-->
         
