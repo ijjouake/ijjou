@@ -292,15 +292,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
 <h2>At the heart of every great business decision is data.</h2>
 
 <!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" alt="Mountains" style="width:100%">
-      <h3>Data Cleaning</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
+   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Lights" style="width:100%">
       <h3>Data Visualisation</h3>
