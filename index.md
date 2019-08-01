@@ -5,8 +5,16 @@ p    {color: black;}
  .main-content :first-child {
     margin-top: 0;
 }
-
+.main-content {
+    max-width: none!important;
+}
+section.main-content {
+    max-width: none!important;
+}
 @media screen and (min-width: 100em){
+.main-content {
+    max-width: none!important;
+}
 section.main-content {
     max-width: none!important;
 }
