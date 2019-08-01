@@ -287,14 +287,14 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
   </div>
   <div class="column">
     <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" alt="Nature" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1lsefpvecebCCws9TH7sLKiNHxExN2h0w" alt="Nature" style="width:100%">
       <h3>Data Modeling</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Mountains" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:100%">
       <h3>Machine Learning</h3>
       <p>Lorem ipsum..</p>
     </div>
