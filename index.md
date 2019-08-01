@@ -47,7 +47,7 @@ p    {color: black;}
   filter:opacity(1);
 }
 .btn:hover {
-    color: #b78f52;
+    color: white;
     text-decoration: none;
     background-color: #b78f52;
     border-color: rgba(255,255,255,1);
