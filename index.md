@@ -7,7 +7,7 @@ p    {color: black;}
 }
 
 @media screen and (min-width: 100em){
-.main-content {
+section.main-content {
     max-width: none!important;
 }
 }
