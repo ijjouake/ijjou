@@ -78,8 +78,7 @@ p    {color: black;}
    margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    
-    
+ 
 }
 
 * {
@@ -200,7 +199,7 @@ h1 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
+  width: 33.33%;
 }
 
 /* Clear floats after rows */ 
