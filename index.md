@@ -302,4 +302,4 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p></div></div></div></div></div>
        
 </div>         
-
+</body>
