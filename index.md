@@ -274,6 +274,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
  
    <!-- MAIN (Center website) -->
 <div class="main">
+ 
 <hr>
 
 <h2>At the heart of every great business decision is data.</h2>
@@ -302,6 +303,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
   </div>
 
 <hr>   
+
 <div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
  <h3>My name is Ijjou</h3>
