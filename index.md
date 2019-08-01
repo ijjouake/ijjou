@@ -280,7 +280,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
 <!-- Portfolio Gallery Grid -->
    <div class="column">
     <div class="content">
-      <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" alt="Lights" style="width:100%">
+      <img src="http://drive.google.com/uc?export=view&id=1MOdTjhRf70jbkXtBeerWUvEkmR2QFXlD" alt="Lights" style="width:100%">
       <h3>Data Visualisation</h3>
       <p>Lorem ipsum..</p>
     </div>
