@@ -36,8 +36,6 @@ p    {color: black;}
     letter-spacing: 4px;
     font-weight: 700;
     font-style: normal;
- 
-    
 }
 .page-header {
  color: #fff;
@@ -301,12 +299,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
       <p>Lorem ipsum..</p>
     </div>
   </div>
-</div>
 
-
-    
-    <!--slide gallery-->
-    
    
 
 <div class="content">
@@ -320,34 +313,4 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p></div></div></div></div></div>
        
 </div>         
-  <script>
-  var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-</script>
 
