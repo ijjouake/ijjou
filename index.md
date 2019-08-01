@@ -1,6 +1,5 @@
 <head>
 <style>
-body {background-color: white;}
 p    {color: black;}
  
  .main-content :first-child {
@@ -123,15 +122,9 @@ h1 {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.backgroundtext{
+  background-color: rgba(rgba(183, 143, 82, 1);
 }
 
 /* Caption text */
@@ -316,7 +309,7 @@ hr {
 
 <div class="vl"></div>
 
-<div class="content">
+<div class="backgroundtext">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
  <h3>My name is Ijjou</h3>
  <p>I'm a business analyst with a background in statistics and management..
