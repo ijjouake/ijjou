@@ -249,12 +249,7 @@ display: none;
 </head>
 
 <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
-<body><p>My name is Ijjou, I'm a business analyst with a background in statistics and management..</p>
-<p> Getting insights out of data to build a business strategy is something that I really like. 
-I am a big open source believer, therefore I prefer to use R and Python for my daily work.
-</p>
-<p> On my website you can find some examples of my projects, most of them are interactive visualization.
-</p>
+<body>
 <!--
 <div class="cleaning" layout="column" layout-align="start center">
                 <h2>Data Cleaning</h2>
@@ -273,7 +268,7 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
  <svg class="svg--source" width="0" height="0" aria-hidden="true"> -->
  
    <!-- MAIN (Center website) -->
-<div class="main">
+<!--<div class="main">-->
  
 <hr>
 
