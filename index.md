@@ -214,7 +214,7 @@ h1 {
   }
 }
 
-.site-footer-credit{
+.site-footer-credits{
 display:none;
 }
 
