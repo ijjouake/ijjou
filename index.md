@@ -245,6 +245,17 @@ max-width: 1020px;
 .site-footer{
 display: none;
 }
+
+hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
 </style>
 </head>
 
@@ -295,7 +306,7 @@ display: none;
       <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
     </div>
   </div>
-<hr>
+<hr class: "br">
 
 <div class="content">
   <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
