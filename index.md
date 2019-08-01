@@ -52,12 +52,6 @@ p    {color: black;}
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 white;
     }
-    .main-content .btn{
-    position: absolute!important;
-    right: 10px!important;
-    top: 10px!important;
-    }
-
 .main-content .btn {
     position: absolute!important;
     right: 10px!important;
@@ -120,11 +114,6 @@ h1 {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.backgroundtext{
-  background-color: rgba(rgba(183, 143, 82, 1);
 }
 
 /* Caption text */
@@ -238,16 +227,6 @@ max-width: 1020px;
 .site-footer{
 display: none;
 }
-
-hr { 
-    display: block;
-    margin-before: 0.5em;
-    margin-after: 0.5em;
-    margin-start: auto;
-    margin-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
 }
 .vl{
   border-left: 6px solid green;
