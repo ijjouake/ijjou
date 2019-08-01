@@ -260,46 +260,26 @@ display: none;
 
 <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
 <body>
-<!--
-<div class="cleaning" layout="column" layout-align="start center">
-                <h2>Data Cleaning</h2>
-                <img src="http://drive.google.com/uc?export=view&id=1SExsoJln2fgGrjugcwTJTOOeQpdeIz4A" style="width:100px;height:100px;">
-            </div> -->
-   <!--         
- <div class=".modeling" layout="column" layout-align="start center">
-                <h2>Data Modeling</h2>
-                <img src="http://drive.google.com/uc?export=view&id=1RLkY98wrRUykiIeNLuz1MV5wdPBU3Wxc" style="width:100px;height:100px;"> </div> -->
-            
-   <!--         
- <div class=".visualisation " layout="column" layout-align="start center">
-                <h2>Data Visualisation</h2>
-               <img src="http://drive.google.com/uc?export=view&id=1IH1BDCmzySD4PirStzy_BKsoCGlulny6" style="width:100px;height:100px;">
-            </div>
- <svg class="svg--source" width="0" height="0" aria-hidden="true"> -->
- 
-   <!-- MAIN (Center website) -->
-<!--<div class="main">-->
- 
 
 <h2>At the heart of every great business decision is data.</h2>
 
 <!-- Portfolio Gallery Grid -->
    <div class="column">
-    <div class="content">
+    <div class="main-content">
       <img src="http://drive.google.com/uc?export=view&id=1MOdTjhRf70jbkXtBeerWUvEkmR2QFXlD" alt="Lights" style="width:100%">
       <h3>Data Visualisation</h3>
       <p>"Painting pictures with numbers is what makes the statistics unique and powerful."</p>
     </div>
   </div>
   <div class="column">
-    <div class="content">
+    <div class="main-content">
       <img src="http://drive.google.com/uc?export=view&id=1lsefpvecebCCws9TH7sLKiNHxExN2h0w" alt="Nature" style="width:100%">
       <h3>Data Modeling</h3>
       <p>Without the Data Model, data can completely fail to provide business value.</p>
     </div>
   </div>
   <div class="column">
-    <div class="content">
+    <div class="main-content">
       <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
       <h3>Machine Learning</h3>
       <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
