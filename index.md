@@ -71,12 +71,15 @@ p    {color: black;}
      
    h2 {
    display: block;
+   text-align: center;
    font-size: 1.5em;
    margin-block-start: 0.83em;
    margin-block-end: 0.83em;
    margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    
+    
 }
 
 * {
@@ -261,7 +264,7 @@ display: none;
 <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
 <body><p>My name is Ijjou, I'm a business analyst with a background in statistics and management..</p>
 <p> Getting insights out of data to build a business strategy is something that I really like. 
-I am a big open source believer, therefore I prefer to use R and python for my daily work.
+I am a big open source believer, therefore I prefer to use R and Python for my daily work.
 </p>
 <p> On my website you can find some examples of my projects, most of them are interactive visualization.
 </p>
@@ -287,7 +290,6 @@ I am a big open source believer, therefore I prefer to use R and python for my d
 <hr>
 
 <h2>At the heart of every great business decision is data.</h2>
-<p>A few pieces of my last projects.</p>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
@@ -321,11 +323,7 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   </div>
 </div>
 
-<div class="content">
-  <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
-  <h3>My name is Ijjou, ....</h3>
-  <p>Lorem ipsum..</p>
-</div>
+
     
     <!--slide gallery-->
     
@@ -362,6 +360,12 @@ I am a big open source believer, therefore I prefer to use R and python for my d
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div class="content">
+  <img src="http://drive.google.com/uc?export=view&id=1n3ynaOV5sjt9dBy8wlfOsyAKpQGJyZWY" alt="Ijjou" style="width:210px;height:210x">
+  <h3>My name is Ijjou, ....</h3>
+  <p>Lorem ipsum..</p>
 </div>
           <!-- Footer-->
         
