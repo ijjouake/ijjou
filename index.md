@@ -284,21 +284,21 @@ I am a big open source believer, therefore I prefer to use R and Python for my d
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1MOdTjhRf70jbkXtBeerWUvEkmR2QFXlD" alt="Lights" style="width:100%">
       <h3>Data Visualisation</h3>
-      <p>Lorem ipsum..</p>
+      <p>"Painting pictures with numbers is what makes the statistics unique and powerful."</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1lsefpvecebCCws9TH7sLKiNHxExN2h0w" alt="Nature" style="width:100%">
       <h3>Data Modeling</h3>
-      <p>Lorem ipsum..</p>
+      <p>Without the Data Model, data can completely fail to provide business value.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
       <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
       <h3>Machine Learning</h3>
-      <p>Lorem ipsum..</p>
+      <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
     </div>
   </div>
 
