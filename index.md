@@ -289,7 +289,8 @@ display: none;
 
 <div class="vl"></div>
 
-<h2>My last projects</h2>
+<h2>There is no point to analytics unless it has a strategic payoff.</h2>
+<p> My last projects</p>
 
 <div class="column2">
     <div class="content">
