@@ -262,6 +262,7 @@ display: none;
 <body>
 
 <h2>At the heart of every great business decision is data.</h2>
+<p> It’s not what is interesting to the analyst, but what is impactful to the business </p>
 
 <!-- Portfolio Gallery Grid -->
    <div class="column">
