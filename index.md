@@ -262,7 +262,7 @@ display: none;
 <body>
 
 <h2>At the heart of every great business decision is data.</h2>
-<p> It’s not what is interesting to the analyst, but what is impactful to the business </p>
+<h3> It’s not what is interesting to the analyst, but what is impactful to the business </h3>
 
 <!-- Portfolio Gallery Grid -->
    <div class="column">
@@ -291,7 +291,7 @@ display: none;
 <div class="vl"></div>
 
 <h2>There is no point to analytics unless it has a strategic payoff.</h2>
-<p> My last projects</p>
+<h3> My last projects</h3>
 
 <div class="column2">
     <div class="content">
