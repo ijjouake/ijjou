@@ -290,7 +290,8 @@ display: none;
 
 <div class="vl"></div>
 
-<h2>There is no point to analytics unless it has a strategic payoff.</h2>
+<!-- <h2>There is no point to analytics unless it has a strategic payoff.</h2> -->
+<h2>Because data trumps opinion.</h2>
 <h3> My last projects</h3>
 
 <div class="column2">
