@@ -77,7 +77,7 @@ section.main-content {
     box-shadow: none;
    }
     
-.main-content .btn {
+.main-content .btn1 {
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
