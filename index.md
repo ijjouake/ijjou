@@ -61,14 +61,13 @@ section.main-content {
   background-size: cover;
   filter:opacity(1);
 }
-.btn1:hover {
+.btn:hover {
     color: white;
     text-decoration: none;
     background-color: #b78f52;
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 white;
     }
-    
     .btn{
     display: none;
     color: none;
@@ -78,7 +77,7 @@ section.main-content {
     box-shadow: none;
    }
     
-.main-content .btn1 {
+.main-content .btn {
     position: absolute!important;
     right: 10px!important;
     top: 10px!important;
