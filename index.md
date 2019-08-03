@@ -68,6 +68,14 @@ section.main-content {
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 white;
     }
+    .btn{
+    color: none;
+    text-decoration: none;
+    background-color: none;
+    border-color: none;
+    box-shadow: none;
+        }
+    
 .main-content .btn {
     position: absolute!important;
     right: 10px!important;
