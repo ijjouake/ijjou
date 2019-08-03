@@ -116,6 +116,7 @@ section.main-content {
   filter:opacity(1);
 }
 .btn:hover {
+    display:none;
     color: white;
     text-decoration: none;
     background-color: #b78f52;
