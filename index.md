@@ -61,7 +61,7 @@ section.main-content {
   background-size: cover;
   filter:opacity(1);
 }
-.btn:hover {
+.btn1:hover {
     color: white;
     text-decoration: none;
     background-color: #b78f52;
@@ -75,8 +75,7 @@ section.main-content {
     background-color: none;
     border-color: none;
     box-shadow: none;
-   
-        }
+   }
     
 .main-content .btn {
     position: absolute!important;
