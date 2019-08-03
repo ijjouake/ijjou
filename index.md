@@ -124,6 +124,7 @@ section.main-content {
     box-shadow: 0 0 white;
     }
     .btn{
+    display:none
     color: none;
     text-decoration: none;
     background-color: none;
