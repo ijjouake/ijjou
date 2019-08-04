@@ -4,8 +4,9 @@
   <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
   <meta name="author" content="Vincent Garreau" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" href="css/particels-style.css">
+ <link rel="stylesheet" type="text/css" href="particels-style.css"/>
 <style>
+ /*
 p    {color: black;}
  
 /* Style the header with a grey background and some padding */
@@ -326,7 +327,7 @@ display: none;
   border-left: 6px solid green;
   width: 500px;
 }
-
+*/
 </style>
 </head>
 <div id="particles-js" style="width: 100%;
