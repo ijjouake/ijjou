@@ -7,6 +7,9 @@ p    {color: black;}
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 /* Style the header links */
