@@ -11,7 +11,7 @@
 
 </head>
 
-<!-- particles.js container bella-->
+<!-- particles.js container -->
 <div id="particles-js" style="width: 100%;
     height: 300px;
     position: fixed;
