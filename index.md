@@ -7,10 +7,11 @@
  <link rel="stylesheet" type="text/css" href="style.css"/>
  <link rel="stylesheet" type="text/css" href="particels-style.css"/>
  
-<style>
- 
-</style>
+<style></style>
+
 </head>
+
+<!-- particles.js container -->
 <div id="particles-js" style="width: 100%;
     height: 300px;
     position: fixed;
@@ -18,6 +19,7 @@
     left: 0px;">
     </div>
 <script src="particles.js"></script>
+<script src="app.js"></script>
 
 <div class="header">
   <a href="#default" class="logo">CompanyLogo</a>
