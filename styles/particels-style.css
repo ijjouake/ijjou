@@ -33,12 +33,14 @@ canvas{
 
 #stats,
 .count-particles{
+    display: none;
   -webkit-user-select: none;
   margin-top: 5px;
   margin-left: 5px;
 }
 
 #stats{
+    display: none;
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
