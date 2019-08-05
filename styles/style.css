@@ -56,7 +56,7 @@ top: 85;
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: #b78f52;
+  background-color: antiquewhite;
   color: black;
 }
 
