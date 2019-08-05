@@ -1,4 +1,8 @@
-p    {color: black;}
+p    {
+    color: black;
+    text-align: center;
+
+}
  
 /* Style the header with a grey background and some padding */
 .header {
@@ -138,6 +142,7 @@ section.main-content {
      }
      
    h2 {
+       color: #b78f52;
    display: block;
    text-align: center;
    font-size: 1.5em;
@@ -171,7 +176,8 @@ h1 {
 }
 
 h3 {
-    color: #b78f52
+    text-align: center;
+    color: #b78f52;
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
