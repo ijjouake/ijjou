@@ -37,8 +37,14 @@ p    {
 }
 
 
+
 .header.b {
-  text-align: absolute;
+text-align: center;
+position: absolute;
+width: 100%;
+top: 85;
+}
+
 }
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 
