@@ -36,6 +36,10 @@ p    {
   border-radius: 4px;
 }
 
+
+.header.b {
+  text-align: absolute;
+}
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 
 /* Change the background color on mouse-over */
