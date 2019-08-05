@@ -36,14 +36,18 @@ p    {
   border-radius: 4px;
 }
 
-
+.header.b.c {
+    color: antiquewhite;
+top: 90px;
+}
 
 .header.b {
 text-align: center;
 position: absolute;
 width: 100%;
-top: 85;
+top: 85px;
 }
+
 
 }
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
