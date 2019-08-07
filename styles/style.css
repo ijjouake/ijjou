@@ -312,7 +312,7 @@ h3 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: oldlace;
   padding: 10px;
 }
 
@@ -339,7 +339,10 @@ display:none;
 }
 .footer-inner-new{
 max-width: 1020px;
+text-align: center;
+background-color: darkgrey;
 }   
+
 
 .footer-inner, .pre-footer-inner {
     max-width: 1020px;
