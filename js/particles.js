@@ -55,12 +55,12 @@ var pJS = function(tag_id, params){
         }
       },
       size: {
-        value: 20,
+        value: 5,
         random: false,
         anim: {
           enable: false,
           speed: 20,
-          size_min: 0,
+          size_min: 5,
           sync: false
         }
       },
