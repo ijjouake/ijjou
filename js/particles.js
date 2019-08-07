@@ -30,9 +30,9 @@ var pJS = function(tag_id, params){
         value: '#fff'
       },
       shape: {
-        type: 'square',
+        type: 'edge',
         stroke: {
-          width: 4,
+          width: 15,
           color: '#ff0000'
         },
         polygon: {
