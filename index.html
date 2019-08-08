@@ -12,55 +12,55 @@
 
 </head>
 
-<!-- count particles 
+<body>
+
+    <!-- count particles 
 <div class="count-particles">
   <span class="js-count-particles">--</span> particles
 </div>
 -->
-<!-- particles.js container -->
-<div id="particles-js"></div>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
 
-<!-- scripts -->
-<script src="./js/particles.js"></script>
-<script src="./js/app.js"></script>
+    <!-- scripts -->
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
 
-
-<!-- stats.js -->
-<script src="./js/stats.js"></script>
-<script>
-    var count_particles, stats, update;
-    stats = new Stats;
-    stats.setMode(0);
-    stats.domElement.style.position = 'absolute';
-    stats.domElement.style.left = '0px';
-    stats.domElement.style.top = '0px';
-    document.body.appendChild(stats.domElement);
-    count_particles = document.querySelector('.js-count-particles');
-    update = function() {
-        stats.begin();
-        stats.end();
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
+    <!-- stats.js -->
+    <script src="./js/stats.js"></script>
+    <script>
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function() {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
         requestAnimationFrame(update);
-    };
-    requestAnimationFrame(update);
 
-</script>
+    </script>
 
-<!-- menu top -->
-<div class="header">
+
+    <!-- menu top -->
+    <div class="header">
         <div class="header-right">
-        <a class="active" href="#home">HOME</a>
-        <a href="#contact">MY PROJECTS</a>
-        <a href="#about">ABOUT ME</a>
+            <a class="active" href="#home">HOME</a>
+            <a href="#contact">MY PROJECTS</a>
+            <a href="#about">ABOUT ME</a>
+        </div>
     </div>
-
-</div>
-<a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
-<h1 class="header b">My name is Ijjou</h1>
-<h2 class="header b c">Welcome to my portfolio</h2>
-<body>
+    <a href="https://github.com/ijjouake/ijjou" class="btn">View Portfolio</a>
+    <h1 class="header b">My name is Ijjou</h1>
+    <h2 class="header b c">Welcome to my portfolio</h2>
 
     <h2>At the heart of every great business decision is data.</h2>
     <h3> It’s not what is interesting to the analyst, but what is impactful to the business </h3>
@@ -88,65 +88,52 @@
         </div>
     </div>
 
-    <!--
-    <hr>
-    -->
-
-    <div class="vl"></div>
-    
-
     <!-- <h2>There is no point to analytics unless it has a strategic payoff.</h2> -->
     <h2>Because data trumps opinion.</h2>
     <h3> My last projects</h3>
-    <div class="column2">
-        <div class="content">
-            <img src="http://drive.google.com/uc?export=view&id=16RV61qdMnwQwknwOgSyOJ5pATpk4SwPH" alt="Lights" style="width:100%">
-            <h3>Data Visualisation</h3>
-            <p>"Painting pictures with numbers is what makes the statistics unique and powerful."</p>
+    <div class="column5">
+        <div class="column2">
+            <div class="main-content">
+                <img src="http://drive.google.com/uc?export=view&id=16RV61qdMnwQwknwOgSyOJ5pATpk4SwPH" alt="Lights">
+                <h3>Data Visualisation</h3>
+                <p>"Painting pictures with numbers is what makes the statistics unique and powerful."</p>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="main-content">
+                <img src="http://drive.google.com/uc?export=view&id=16RV61qdMnwQwknwOgSyOJ5pATpk4SwPH" alt="Nature">
+                <h3>Data Modeling</h3>
+                <p>Without the Data Model, data can completely fail to provide business value.</p>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="main-content">
+                <img src="http://drive.google.com/uc?export=view&id=16RV61qdMnwQwknwOgSyOJ5pATpk4SwPH" alt="Mountains">
+                <h3>Machine Learning</h3>
+                <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="main-content">
+                <img src="http://drive.google.com/uc?export=view&id=16RV61qdMnwQwknwOgSyOJ5pATpk4SwPH" alt="Mountains">
+                <h3>Machine Learning</h3>
+                <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
+            </div>
         </div>
     </div>
-    <div class="column2">
-        <div class="content">
-            <img src="http://drive.google.com/uc?export=view&id=1lsefpvecebCCws9TH7sLKiNHxExN2h0w" alt="Nature" style="width:100%">
-            <h3>Data Modeling</h3>
-            <p>Without the Data Model, data can completely fail to provide business value.</p>
-        </div>
-    </div>
-    <div class="column2">
-        <div class="content">
-            <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
-            <h3>Machine Learning</h3>
-            <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
-        </div>
-    </div>
-    <div class="column2">
-        <div class="content">
-            <img src="http://drive.google.com/uc?export=view&id=1VG0AZArApiSrvp8mNxhLf_bnoLTlk56B" alt="Mountains" style="width:75%">
-            <h3>Machine Learning</h3>
-            <p>Systems can learn from data, identify patterns and make decisions with minimal human intervention.</p>
-        </div>
-    </div>
-
     
+    <p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p>
+
+    <!--
         <h3>My name is Ijjou</h3>
         <p>I'm a business analyst with a background in statistics and management..
             Getting insights out of data to build a business strategy is something that I really like.
             I am a big open source believer, therefore I prefer to use R and Python for my daily work.
         </p>
-   
-    <!-- Footer-->
+    -->
+    <!-- Footer
     <footer class="footer-inner-new">
-        <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1483893114203" id="footerBlocks">
-            <div class="row sqs-row">
-                <div class="col sqs-col-12 span-12">
-                    <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937">
-                        <div class="sqs-block-content">
-                            <p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p>
     </footer>
-
+    -->
 </body>
