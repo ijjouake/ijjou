@@ -383,6 +383,10 @@ h3 {
     }
 }
 
+.sfondofooter{
+    background-color: burlywood;
+}
+
 .vl {
     border-left: 6px solid green;
     width: 500px;
