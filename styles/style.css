@@ -409,7 +409,7 @@ h3 {
 /* Content */
 .content {
     background-color: oldlace;
-    padding: 10px;
+    padding: 30px;
 }
 
 .column5 {
@@ -419,6 +419,8 @@ h3 {
 .column5 img {
     width: 100%;
     height: auto;
+    border: 5px solid #b78f52;
+    margin: 2px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -466,4 +468,35 @@ h3 {
 .vl {
     border-left: 6px solid green;
     width: 500px;
+}
+
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
 }
