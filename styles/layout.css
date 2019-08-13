@@ -1,0 +1,262 @@
+/*!
+ * AngularJS Material Design
+ * https://github.com/angular/material
+ * @license MIT
+ * v1.1.12
+ */
+body,
+html {
+    height: 100%;
+    position: relative
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+[tabindex="-1"]:focus {
+    outline: none
+}
+
+.inset {
+    padding: 10px
+}
+
+a.md-no-style,
+button.md-no-style {
+    font-weight: 400;
+    background-color: inherit;
+    text-align: left;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+button,
+input,
+select,
+textarea {
+    vertical-align: baseline
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+button[disabled],
+html input[type=button][disabled],
+input[type=reset][disabled],
+input[type=submit][disabled] {
+    cursor: default
+}
+
+textarea {
+    vertical-align: top;
+    overflow: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+input:-webkit-autofill {
+    text-shadow: none
+}
+
+body,
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    min-height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+button,
+html,
+input,
+select,
+textarea {
+    font-family: Roboto, Helvetica Neue, sans-serif
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%
+}
+
+
+
+.layout,
+.layout-column,
+.layout-row {
+    box-sizing: border-box;
+    display: flex
+}
+
+.layout-column {
+    flex-direction: column
+}
+
+.layout-row {
+    flex-direction: row
+}
+
+.layout-wrap {
+    flex-wrap: wrap
+}
+
+.layout-nowrap {
+    flex-wrap: nowrap
+}
+
+
+.layout-align,
+.layout-align-start-stretch {
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch
+}
+
+.layout-align-start,
+.layout-align-start-center,
+.layout-align-start-end,
+.layout-align-start-start,
+.layout-align-start-stretch {
+    justify-content: flex-start
+}
+
+.layout-align-center,
+.layout-align-center-center,
+.layout-align-center-end,
+.layout-align-center-start,
+.layout-align-center-stretch {
+    justify-content: center
+}
+
+.layout-align-end,
+.layout-align-end-center,
+.layout-align-end-end,
+.layout-align-end-start,
+.layout-align-end-stretch {
+    justify-content: flex-end
+}
+
+.layout-align-space-around,
+.layout-align-space-around-center,
+.layout-align-space-around-end,
+.layout-align-space-around-start,
+.layout-align-space-around-stretch {
+    justify-content: space-around
+}
+
+.layout-align-space-between,
+.layout-align-space-between-center,
+.layout-align-space-between-end,
+.layout-align-space-between-start,
+.layout-align-space-between-stretch {
+    justify-content: space-between
+}
+
+.layout-align-center-start,
+.layout-align-end-start,
+.layout-align-space-around-start,
+.layout-align-space-between-start,
+.layout-align-start-start {
+    align-items: flex-start;
+    align-content: flex-start
+}
+
+.layout-align-center-center,
+.layout-align-end-center,
+.layout-align-space-around-center,
+.layout-align-space-between-center,
+.layout-align-start-center {
+    align-items: center;
+    align-content: center;
+    max-width: 100%
+}
+
+.layout-align-center-center > *,
+.layout-align-end-center > *,
+.layout-align-space-around-center > *,
+.layout-align-space-between-center > *,
+.layout-align-start-center > * {
+    max-width: 100%;
+    box-sizing: border-box
+}
+
+.layout-align-center-end,
+.layout-align-end-end,
+.layout-align-space-around-end,
+.layout-align-space-between-end,
+.layout-align-start-end {
+    align-items: flex-end;
+    align-content: flex-end
+}
+
+.layout-align-center-stretch,
+.layout-align-end-stretch,
+.layout-align-space-around-stretch,
+.layout-align-space-between-stretch,
+.layout-align-start-stretch {
+    align-items: stretch;
+    align-content: stretch
+}
+
+.flex {
+    flex: 1
+}
+
+.flex,
+.flex-grow {
+    box-sizing: border-box
+}
+
+.flex-grow {
+    flex: 1 1 100%
+}
+
+.flex-initial {
+    flex: 0 1 auto;
+    box-sizing: border-box
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+    box-sizing: border-box
+}
+
+.flex-none {
+    flex: 0 0 auto;
+    box-sizing: border-box
+}
+
+.flex-noshrink {
+    flex: 1 0 auto;
+    box-sizing: border-box
+}
+
+.flex-nogrow {
+    flex: 0 1 auto;
+    box-sizing: border-box
+}
+
+
+

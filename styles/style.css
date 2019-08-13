@@ -406,11 +406,12 @@ h3 {
     clear: both;
 }
 
-/* Content */
+/* Content Ste
 .content {
     background-color: oldlace;
     padding: 30px;
 }
+*/
 
 .column5 {
     background-color: oldlace;
@@ -501,3 +502,40 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+
+
+.container{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.item{
+    width: 100%;
+    min-width: 200px;
+    max-width: 350px;
+    border: 1px solid green;
+    height: 100%;
+}
+
+.item img{
+    width:100%;
+    height: auto;
+}
+
+.item h3{
+    color: rgb(183, 143, 82);
+    font-weight: normal;
+}
+
+.item p{
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+
+
+
+
