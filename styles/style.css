@@ -25,27 +25,28 @@ p {
 }
 
 /* Style the header links */
-.header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-}
 
-.header.b.c {
-    color: antiquewhite;
-    top: 170px;
-}
-
-.header.b {
-    text-align: center;
+.top{
     position: absolute;
+    top:0;
+    left: 0;
     width: 100%;
-    top: 85px;
+    height: auto;
+    text-align: center;
+}
+
+.ijjou.b {
+    width: 100%;
+}
+
+.ijjou.b.c {
+    color: antiquewhite;
+    margin-top: -40px;
+}
+
+img.fotoprofilo{
+    width: 200px;
+    height: 200px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -156,6 +157,7 @@ p {
     }
 }
 
+/*
 .main-content :first-child {
     margin-top: 0;
 }
@@ -191,6 +193,8 @@ section.main-content {
     color: #b78f52;
 }
 
+*/
+
 .project-name {
     font-size: 4rem;
     font-family: "adobe-garamond-pro";
@@ -218,31 +222,6 @@ section.main-content {
     font-style: normal;
 }
 
-.btn:hover {
-    display: none;
-    color: white;
-    text-decoration: none;
-    background-color: #b78f52;
-    border-color: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 white;
-}
-
-.btn {
-    display: none;
-    color: none;
-    text-decoration: none;
-    background-color: none;
-    border-color: none;
-    box-shadow: none;
-}
-
-.main-content .btn {
-    position: absolute !important;
-    right: 10px !important;
-    top: 10px !important;
-    background-color: #b78f52;
-    text-transform: uppercase;
-}
 
 h2 {
     color: #b78f52;
@@ -280,7 +259,7 @@ h1 {
 
 h3 {
     text-align: center;
-    color: #b78f52;
+    color: black;
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -508,7 +487,7 @@ hr {
     margin-top: 25px;
     width: 100%;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid transparent;
     padding: 10px;
 }
 
@@ -516,13 +495,12 @@ hr {
     width: 100%;
     min-width: 200px;
     max-width: 350px;
-    border: 1px solid green;
     height: 100%;
 }
 
 .item img{
-    width:100%;
-    height: auto;
+    width: 348px;
+    height: 261px;
 }
 
 .item h3{
