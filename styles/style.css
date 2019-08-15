@@ -26,6 +26,9 @@ p {
 
 /* Style the header links */
 
+.padding{
+    padding: 20px;
+}
 .top{
     position: absolute;
     top:0;
