@@ -228,6 +228,10 @@ section.main-content {
     font-style: normal;
 }
 
+.animation{
+    width: 700px;
+    height: 700px;
+}
 
 h2 {
     color: #b78f52;
