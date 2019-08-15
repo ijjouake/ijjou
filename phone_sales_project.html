@@ -1,94 +1,190 @@
+<head>
+    <meta charset="utf-8">
+    <title>particles.js</title>
+    <meta name="description" content="INSERT DESCRIPTION">
+    <meta name="author" content="Ijjou Akentour" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<h1> BEST SELLING MOBILE PHONES</h1>
-<p> Mobile phones have become the most used electronic device in the world. In the last 20 years, the use of mobile devices has grown rapidly across the world.  Below is a bar chart of best-selling mobile phones, released between 2000 to 2018. </p>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/particels-style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/layout.css">
+</head>
 
-<img scr="http://drive.google.com/uc?export=view&id=1BtWszOFfTxIipx2U1qygfYTofedzOoI8" </img>
+<body>
 
-<h3>Data set:</h3>
-<p>Top selling mobile phones between 2000 to 2018. Resource:<a href = "https://en.wikipedia.org/wiki/List_of_best-selling_mobile_phones#2018_2">Wikipedia</a></p>
+    <!-- count particles
+    <div class="count-particles">
+        <span class="js-count-particles">--</span> particles
+    </div>
+    -->
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
 
+    <!-- scripts -->
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
 
-<h3>Results</h3>
-<p>The best-selling mobile devices are the Nokia 1100 and 1110, two bar phones released in 2003 and 2005, respectively. Both have sold over 250 million units. The best-selling touchscreen phones are the Apple iPhone 6 and 6 Plus, both released in 2014. Together, they have sold over 220 million units. The best-selling flip phone is the Motorola RAZR V3, released in 2004. It sold over 130 million units. The best-selling slider phone is the Samsung E250, released in 2006. It has sold over 30 million units.</p>
+    <!-- stats.js -->
+    <script src="./js/stats.js"></script>
+    <script>
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function() {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
 
-<h2>R code and packages</h2>
-
-<h3>Packages </h3>
-<p>The packages that are required to build an animated plots in R are:</p>
-
-library(gganimate)
-library(tidyverse)
-
-<p>#IMPORT DATASET</p>
-
-library(readxl)
-
-PHONE_revisioned <- read_excel("C:/Users/ijjou/Desktop/githubprojects/PHONE_revisioned.xlsx", col_types = c("text", "numeric", "numeric"))
-
-View(PHONE_revisioned)
-
-<p>#LOADING LIBRARIES</p>
-
-library(tidyverse)
-library(gganimate)
-
-<p># CODE TO FORMAT THE DATA</p>
-
-gdp_formatted <- PHONE_revisioned %>%
-group_by(year) %>%
-arrange(-value) %>%
-mutate(rank = rank(-value),
-Value_rel = value/value[rank==1],
-Value_lbl = (value)) %>%
-group_by(Manufacturer) %>% 
-filter(rank <=10) %>%
-ungroup()
-
-
-<p>#CODE TO BUILD A STATIC PLOT</p>
-
-staticplot = ggplot(gdp_formatted, aes(rank, group = Manufacturer, 
-+                                        fill = as.factor(Manufacturer), color = as.factor(Manufacturer))) +
-+     geom_tile(aes(y = value/2,
-+                   height = value,
-+                   width = 0.9), alpha = 0.8, color = NA) +
-+     geom_text(aes(y = 0, label = paste(Manufacturer, " ")), vjust = 0.5, hjust = "right", colour = "black", fontface = "bold", nudge_y = -100000) +
-+     geom_text(aes(y=value,label = Value_lbl, hjust=0)) +
-+     coord_flip(clip = "off", expand = FALSE) +
-+     scale_y_continuous(labels = scales::comma) +
-+     scale_x_reverse() +
-+     guides(color = FALSE, fill = FALSE) +
-+     theme(axis.line=element_blank(),
-+           axis.text.x=element_blank(),
-+           axis.text.y=element_blank(),
-+           axis.ticks=element_blank(),
-+           axis.title.x=element_blank(),
-+           axis.title.y=element_blank(),
-+           legend.position="none",
-+           panel.background=element_blank(),
-+           panel.border=element_blank(),
-+           panel.grid.major=element_blank(),
-+           panel.grid.minor=element_blank(),
-+           panel.grid.major.x = element_line( size=.1, color="grey" ),
-+           panel.grid.minor.x = element_line( size=.1, color="grey" ),
-+           plot.title=element_text(size=25, hjust=0.5, face="bold", colour="black", vjust=-1),
-+           plot.subtitle=element_text(size=18, hjust=0.5, face="italic", color="black"),
-+           plot.caption =element_text(size=15, hjust=0.5, face="italic", color="black"),
-+           plot.background=element_blank(),
-+           plot.margin = margin(1,1, 1, 4, "cm"))
+    </script>
 
 
-<p> #CODE TO BUILD A DINAMIC PLOT </p>
+    <!-- menu top -->
 
-anim = staticplot + transition_states(year, transition_length = 5, state_length = 1) +
-+     view_follow(fixed_x = TRUE)  +
-+     labs(title = 'Phone Sales per year : {closest_state}',  
-+          subtitle  =  " ",
-+          caption  = "IJJOU AKENTOUR | Data Source: Wikipedia")
-> animate(anim, 200, fps = 20,  width = 1500, height = 1200, 
-+         renderer = gifski_renderer("gganim.gif"))
-                                                        
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+        <div class="header-right">
+            <a href="#news">HOME</a>
+            <a href="#contact">PROJECTS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <!--
+    <div class="header">
+        <div class="header-right">
+            <a class="active" href="#home">HOME</a>
+            <a href="#contact">MY PROJECTS</a>
+            <a href="#about">ABOUT ME</a>
+        </div>
+    </div>
+    -->
+    <div class="top layout-column layout-align-start-center">
+        <img class="fotoprofilo" src="http://drive.google.com/uc?export=view&id=1UkPbAi328WUdh_pmSgJcfRXinh2btGCf">
+        <h1 class="ijjou b">Ijjou Akentour</h1>
+        <h2 class="ijjou b c">Junior Data Analyst</h2>
+    </div>
+
+    <h1 style="text-align:center;"> BEST SELLING MOBILE PHONES</h1>
+    <p style="text-align:justify;"> Mobile phones have become the most used electronic device in the world. In the last 20 years, the use of mobile devices has grown rapidly across the world. Below is a bar chart of best-selling mobile phones, released between 2000 to 2018. </p>
+
+    <img scr="http://drive.google.com/uc?export=view&id=1BtWszOFfTxIipx2U1qygfYTofedzOoI8">
+    <h3 style="text-align:left;">Data set:</h3>
+    <p style="text-align:left;">Top selling mobile phones between 2000 to 2018. Resource:
+        <a href="https://en.wikipedia.org/wiki/List_of_best-selling_mobile_phones#2018_2">Wikipedia</a>
+    </p>
+
+    <h3 style="text-align:left;">Results</h3>
+    <p style="text-align:justify;">The best-selling mobile devices are the Nokia 1100 and 1110, two bar phones released in 2003 and 2005, respectively. Both have sold over 250 million units. The best-selling touchscreen phones are the Apple iPhone 6 and 6 Plus, both released in 2014. Together, they have sold over 220 million units. The best-selling flip phone is the Motorola RAZR V3, released in 2004. It sold over 130 million units. The best-selling slider phone is the Samsung E250, released in 2006. It has sold over 30 million units.</p>
+
+    <h2 style="text-align:left;">R code and packages</h2>
+
+    <h3 style="text-align:left;">Packages </h3>
+    <p style="text-align:justify;">The packages that are required to build an animated plots in R are:</p>
+
+    <pre>
+    <code>
+      <!-- your code here -->
+
+    library(gganimate)
+    library(tidyverse)
+
+    #IMPORT DATASET
+
+    library(readxl)
+
+    PHONE_revisioned <- read_excel("C:/Users/ijjou/Desktop/githubprojects/PHONE_revisioned.xlsx", col_types=c("text", "numeric" , "numeric" )) View(PHONE_revisioned)
+    
+    #LOADING LIBRARIES
+
+        library(tidyverse)
+        library(gganimate)
+
+        # CODE TO FORMAT THE DATA
+
+        gdp_formatted <- PHONE_revisioned %>%
+            group_by(year) %>%
+            arrange(-value) %>%
+            mutate(rank = rank(-value),
+            Value_rel = value/value[rank==1],
+            Value_lbl = (value)) %>%
+            group_by(Manufacturer) %>%
+            filter(rank <=10) %>%
+                ungroup()
 
 
+                #CODE TO BUILD A STATIC PLOT
+
+                staticplot = ggplot(gdp_formatted, aes(rank, group = Manufacturer,
+                + fill = as.factor(Manufacturer), color = as.factor(Manufacturer))) +
+                + geom_tile(aes(y = value/2,
+                + height = value,
+                + width = 0.9), alpha = 0.8, color = NA) +
+                + geom_text(aes(y = 0, label = paste(Manufacturer, " ")), vjust = 0.5, hjust = "right", colour = "black", fontface = "bold", nudge_y = -100000) +
+                + geom_text(aes(y=value,label = Value_lbl, hjust=0)) +
+                + coord_flip(clip = "off", expand = FALSE) +
+                + scale_y_continuous(labels = scales::comma) +
+                + scale_x_reverse() +
+                + guides(color = FALSE, fill = FALSE) +
+                + theme(axis.line=element_blank(),
+                + axis.text.x=element_blank(),
+                + axis.text.y=element_blank(),
+                + axis.ticks=element_blank(),
+                + axis.title.x=element_blank(),
+                + axis.title.y=element_blank(),
+                + legend.position="none",
+                + panel.background=element_blank(),
+                + panel.border=element_blank(),
+                + panel.grid.major=element_blank(),
+                + panel.grid.minor=element_blank(),
+                + panel.grid.major.x = element_line( size=.1, color="grey" ),
+                + panel.grid.minor.x = element_line( size=.1, color="grey" ),
+                + plot.title=element_text(size=25, hjust=0.5, face="bold", colour="black", vjust=-1),
+                + plot.subtitle=element_text(size=18, hjust=0.5, face="italic", color="black"),
+                + plot.caption =element_text(size=15, hjust=0.5, face="italic", color="black"),
+                + plot.background=element_blank(),
+                + plot.margin = margin(1,1, 1, 4, "cm"))
 
 
+                 #CODE TO BUILD A DINAMIC PLOT
+
+                anim = staticplot + transition_states(year, transition_length = 5, state_length = 1) +
+                + view_follow(fixed_x = TRUE) +
+                + labs(title = 'Phone Sales per year : {closest_state}',
+                + subtitle = " ",
+                + caption = "IJJOU AKENTOUR | Data Source: Wikipedia")
+                > animate(anim, 200, fps = 20, width = 1500, height = 1200,
+                + renderer = gifski_renderer("gganim.gif"))
+            
+    </code>
+  </pre>
+  
+                &nbsp;&nbsp;
+
+                <div class="sfondofooter">
+                    <p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>
+</body>
