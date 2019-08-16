@@ -499,13 +499,11 @@ hr {
     height: auto;
     border: 1px solid transparent;
     padding: 10px;
+    text-align: center;
 }
 
-.
-item{
-    width: 100%;
-    min-width: 200px;
-    max-width: 350px;
+.item{
+    width: 348px;
     height: 100%;
 }
 
@@ -517,11 +515,13 @@ item{
 .item h3{
     color: rgb(183, 143, 82);
     font-weight: normal;
+    width: 100%;
 }
 
 .item p{
     line-height: 20px;
     margin-top: -10px;
+    width: 100%;
 }
 
 
