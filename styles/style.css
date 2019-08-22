@@ -75,7 +75,7 @@ img.fotoprofilo{
     color: black;
     text-align: center;
     text-decoration-style: bold;
-    padding: 14px 16px;
+    padding: 10px 5px;
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
@@ -83,8 +83,9 @@ img.fotoprofilo{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: transparent;
     color: black;
+    border: 2px solid white;
 }
 
 /* Add an active class to highlight the current page */
