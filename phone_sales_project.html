@@ -124,7 +124,7 @@
             filter(rank <=10) %>%
                 ungroup()
 
-
+<pre>pre {
                 #CODE TO BUILD A STATIC PLOT
 
                 staticplot = ggplot(gdp_formatted, aes(rank, group = Manufacturer,
@@ -166,10 +166,8 @@
                 + subtitle = " ",
                 + caption = "IJJOU AKENTOUR | Data Source: Wikipedia")
                 > animate(anim, 200, fps = 20, width = 1500, height = 1200,
-                + renderer = gifski_renderer("gganim.gif"))
-            
-    </code>
-  </pre>
+                + renderer = gifski_renderer("gganim.gif"))  
+    }
 
     &nbsp;&nbsp;
 
