@@ -41,6 +41,7 @@ p {
 .ijjou.b {
     width: 90%;
     margin-top:0px;
+    text-align: center;
 }
 
 .ijjou.b.c {
@@ -52,7 +53,7 @@ img.fotoprofilo{
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    margin-top: 90px;
+    margin-top: -250px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
