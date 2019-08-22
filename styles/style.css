@@ -46,14 +46,14 @@ p {
 
 .ijjou.b.c {
     color: antiquewhite;
-    margin-top: -45px;
+    margin-top: -40px;
 }
 
 img.fotoprofilo{
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    margin-top: -250px;
+    margin-top: -230px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -64,7 +64,7 @@ img.fotoprofilo{
     overflow: hidden;
     padding: 20px 10px;
     position: absolute;
-    top: 2px;
+    top: 0px;
     right: 10px;
 }
 
