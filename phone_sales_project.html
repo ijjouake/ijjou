@@ -96,80 +96,73 @@
         <h3 style="text-align:left;">Packages </h3>
         <p style="text-align:justify;">The packages that are required to build an animated plots in R are:</p>
     </div>
-    <pre>
-    <code>
-    library(gganimate)
-    library(tidyverse)
 
-    #IMPORT DATASET
+    <div class="padding">
+        <code class="r">
+            library(gganimate)
+            library(tidyverse)
+            #IMPORT DATASET
 
-    library(readxl)
+            library(readxl)
 
-    PHONE_revisioned <- read_excel("C:/Users/ijjou/Desktop/githubprojects/PHONE_revisioned.xlsx", col_types=c("text", "numeric" , "numeric" )) View(PHONE_revisioned)
-    
-    #LOADING LIBRARIES
-
-        library(tidyverse)
-        library(gganimate)
-
-        # CODE TO FORMAT THE DATA
-
-        gdp_formatted <- PHONE_revisioned %>%
-            group_by(year) %>%
-            arrange(-value) %>%
-            mutate(rank = rank(-value),
-            Value_rel = value/value[rank==1],
-            Value_lbl = (value)) %>%
-            group_by(Manufacturer) %>%
-            filter(rank <=10) %>%
-                ungroup()
-
-<pre>pre {
-                #CODE TO BUILD A STATIC PLOT
-
-                staticplot = ggplot(gdp_formatted, aes(rank, group = Manufacturer,
-                + fill = as.factor(Manufacturer), color = as.factor(Manufacturer))) +
-                + geom_tile(aes(y = value/2,
-                + height = value,
-                + width = 0.9), alpha = 0.8, color = NA) +
-                + geom_text(aes(y = 0, label = paste(Manufacturer, " ")), vjust = 0.5, hjust = "right", colour = "black", fontface = "bold", nudge_y = -100000) +
-                + geom_text(aes(y=value,label = Value_lbl, hjust=0)) +
-                + coord_flip(clip = "off", expand = FALSE) +
-                + scale_y_continuous(labels = scales::comma) +
-                + scale_x_reverse() +
-                + guides(color = FALSE, fill = FALSE) +
-                + theme(axis.line=element_blank(),
-                + axis.text.x=element_blank(),
-                + axis.text.y=element_blank(),
-                + axis.ticks=element_blank(),
-                + axis.title.x=element_blank(),
-                + axis.title.y=element_blank(),
-                + legend.position="none",
-                + panel.background=element_blank(),
-                + panel.border=element_blank(),
-                + panel.grid.major=element_blank(),
-                + panel.grid.minor=element_blank(),
-                + panel.grid.major.x = element_line( size=.1, color="grey" ),
-                + panel.grid.minor.x = element_line( size=.1, color="grey" ),
-                + plot.title=element_text(size=25, hjust=0.5, face="bold", colour="black", vjust=-1),
-                + plot.subtitle=element_text(size=18, hjust=0.5, face="italic", color="black"),
-                + plot.caption =element_text(size=15, hjust=0.5, face="italic", color="black"),
-                + plot.background=element_blank(),
-                + plot.margin = margin(1,1, 1, 4, "cm"))
+            PHONE_revisioned <- read_excel("C:/Users/ijjou/Desktop/githubprojects/PHONE_revisioned.xlsx", col_types=c("text", "numeric" , "numeric" )) View(PHONE_revisioned) #LOADING LIBRARIES library(tidyverse) library(gganimate) # CODE TO FORMAT THE DATA gdp_formatted <- PHONE_revisioned %>%
+                group_by(year) %>%
+                arrange(-value) %>%
+                mutate(rank = rank(-value),
+                Value_rel = value/value[rank==1],
+                Value_lbl = (value)) %>%
+                group_by(Manufacturer) %>%
+                filter(rank <=10) %>%
+                    ungroup()
 
 
-                 #CODE TO BUILD A DINAMIC PLOT
 
-                anim = staticplot + transition_states(year, transition_length = 5, state_length = 1) +
-                + view_follow(fixed_x = TRUE) +
-                + labs(title = 'Phone Sales per year : {closest_state}',
-                + subtitle = " ",
-                + caption = "IJJOU AKENTOUR | Data Source: Wikipedia")
-                > animate(anim, 200, fps = 20, width = 1500, height = 1200,
-                + renderer = gifski_renderer("gganim.gif"))  
-    }
+                    #CODE TO BUILD A STATIC PLOT
 
-    &nbsp;&nbsp;
+                    staticplot = ggplot(gdp_formatted, aes(rank, group = Manufacturer,
+                    + fill = as.factor(Manufacturer), color = as.factor(Manufacturer))) +
+                    + geom_tile(aes(y = value/2,
+                    + height = value,
+                    + width = 0.9), alpha = 0.8, color = NA) +
+                    + geom_text(aes(y = 0, label = paste(Manufacturer, " ")), vjust = 0.5, hjust = "right", colour = "black", fontface = "bold", nudge_y = -100000) +
+                    + geom_text(aes(y=value,label = Value_lbl, hjust=0)) +
+                    + coord_flip(clip = "off", expand = FALSE) +
+                    + scale_y_continuous(labels = scales::comma) +
+                    + scale_x_reverse() +
+                    + guides(color = FALSE, fill = FALSE) +
+                    + theme(axis.line=element_blank(),
+                    + axis.text.x=element_blank(),
+                    + axis.text.y=element_blank(),
+                    + axis.ticks=element_blank(),
+                    + axis.title.x=element_blank(),
+                    + axis.title.y=element_blank(),
+                    + legend.position="none",
+                    + panel.background=element_blank(),
+                    + panel.border=element_blank(),
+                    + panel.grid.major=element_blank(),
+                    + panel.grid.minor=element_blank(),
+                    + panel.grid.major.x = element_line( size=.1, color="grey" ),
+                    + panel.grid.minor.x = element_line( size=.1, color="grey" ),
+                    + plot.title=element_text(size=25, hjust=0.5, face="bold", colour="black", vjust=-1),
+                    + plot.subtitle=element_text(size=18, hjust=0.5, face="italic", color="black"),
+                    + plot.caption =element_text(size=15, hjust=0.5, face="italic", color="black"),
+                    + plot.background=element_blank(),
+                    + plot.margin = margin(1,1, 1, 4, "cm"))
+
+
+                    #CODE TO BUILD A DINAMIC PLOT
+
+                    anim = staticplot + transition_states(year, transition_length = 5, state_length = 1) +
+                    + view_follow(fixed_x = TRUE) +
+                    + labs(title = 'Phone Sales per year : {closest_state}',
+                    + subtitle = " ",
+                    + caption = "IJJOU AKENTOUR | Data Source: Wikipedia")
+                    > animate(anim, 200, fps = 20, width = 1500, height = 1200,
+                    + renderer = gifski_renderer("gganim.gif"))
+        </code>
+    </div>
+
+
 
     <div class="sfondofooter">
         <p class="text-align-center">© 2019 Ijjou Akentour. All rights reserved.</p>
